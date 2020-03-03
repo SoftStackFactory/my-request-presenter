@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.github": true,
+    "**/node_modules": true,
+    "broswerlsit": true,
+    "**/package-lock.json": true,
+    "tsconfig.spec.json": true,
+    "karma.conf.js": true,
+    "angular.json": true,
+    "**/e2e": true,
+    "tsconfig.json": true,
+    "tslint.json": true,
+    "**/tsconfig.app.json": true,
+    "**/browserslist": true,
+    "**/.editorconfig": true,
+    "**/test.ts": true,
+    "**/polyfills.ts": true,
+    "**/main.ts": true
+  }
+}
