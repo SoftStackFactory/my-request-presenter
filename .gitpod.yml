@@ -2,7 +2,7 @@ image:
    file: .gitpod.dockerfile
 tasks:
   - init: echo no | npm install
-    command: ng serve --port 8000
+    command: ng serve --port 8000 --disable-host-check
 ports:
   - port: 8000
     onOpen: open-preview
