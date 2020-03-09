@@ -4,5 +4,6 @@
     <input formControlName="password" placeholder="Your password">
     
     <!-- <button type="submit">Send</button> -->
+    <div *ngIf="myForm.invalid">please fill out</div>
     <button type="submit" [disabled]="myForm.invalid" (click)="onSubmit()">Register</button>
   </form>
