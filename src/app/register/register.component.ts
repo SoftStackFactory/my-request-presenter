@@ -1,15 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
+import { FormBuilder } from '@angular/forms';
+import { Validators } from '@angular/forms';
+import { FormArray } from '@angular/forms';
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.scss']
 })
-export class RegisterComponent implements OnInit {
 
-  constructor() { }
+export class RegisterComponent {
+  profileForm = this.fb.group({
+    firstName: ['', Validators.required],
+    lastName: [''],
+    email: ['',Validators.required],
+    dateOfBirth: [''],
+  });
 
-  ngOnInit() {
+  constructor(private fb: FormBuilder) { }
+
+  onSubmit() {
+    // TODO: Use EventEmitter with form value
+    console.warn(this.profileForm.value);
   }
-
 }

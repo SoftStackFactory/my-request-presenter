@@ -1,1 +1,29 @@
-<p>register works!</p>
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    <label>
+      First Name:
+      <input type="text" formControlName="firstName" required>
+    </label>
+  
+    <label>
+      Last Name:
+      <input type="text" formControlName="lastName">
+    </label>
+  
+    <label>
+      Email:
+      <input type="email" formControlName="email">
+    </label>
+   
+   <label>
+      Password:
+      <input type="password" formControlName="password">
+    </label>
+  
+    <label>
+      Date of Birth:
+      <input type="date" formControlName="dateOfBirth">
+    </label>
+  
+    <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+  </form>
+  
