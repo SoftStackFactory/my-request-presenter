@@ -1,14 +1,14 @@
-<p>register works!</p>
+<p>register here!</p>
 <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
     <input formControlName="firstName" placeholder="Your first name">
-    <div *ngIf="name.invalid" class="alert alert-danger">Please correct entry</div>
     <input formControlName="lastName" placeholder="Your last name">
     <input formControlName="email" placeholder="Your email">
     <input formControlName="password" placeholder="Your password">
     <input formControlName="DOB" placeholder="Your DOB">
   
+    <div *ngIf="myForm.invalid">Please fill out</div>
+
     <!-- <button type="submit">Send</button> -->
-    <div></div>
     <button type="submit" [disabled]="myForm.invalid" (click)="onSubmit()">Register</button>
   </form>
 
