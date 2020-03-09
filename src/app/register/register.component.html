@@ -1,16 +1,19 @@
 <p>register works!</p>
 <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
     <input formControlName="firstName" placeholder="Your first name">
+    <div *ngIf="name.invalid" class="alert alert-danger">Please correct entry</div>
     <input formControlName="lastName" placeholder="Your last name">
     <input formControlName="email" placeholder="Your email">
     <input formControlName="password" placeholder="Your password">
     <input formControlName="DOB" placeholder="Your DOB">
   
-    <button type="submit">Send</button>
+    <!-- <button type="submit">Send</button> -->
+    <div></div>
+    <button type="submit" [disabled]="myForm.invalid" (click)="onSubmit()">Register</button>
   </form>
 
 <!-- ------------------------------------------------- -->
-
+<!-- 
   <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
     <input formControlName="name" placeholder="Your name">
   
@@ -31,7 +34,5 @@
       Write something longer please!
     </div>
   
-    <button type="submit" [disabled]="myForm.invalid">
-      Send
-    </button>
-  </form>
+    
+  </form> -->
