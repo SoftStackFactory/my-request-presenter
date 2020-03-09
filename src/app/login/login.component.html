@@ -1,7 +1,7 @@
 <p>login here!</p>
 <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
-    <input formControlName="email" placeholder="Your email">
-    <input formControlName="password" placeholder="Your password">
+    <label><input formControlName="email" placeholder="Your email"></label>
+    <label><input formControlName="password" placeholder="Your password"></label>
     
     <!-- <button type="submit">Send</button> -->
     <div *ngIf="myForm.invalid">please fill out</div>
