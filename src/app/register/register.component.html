@@ -1,4 +1,6 @@
-<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    Value: {{ registerForm.value | json }}
+
     <label>
       First Name:
       <input type="text" formControlName="firstName" required>
@@ -6,17 +8,17 @@
   
     <label>
       Last Name:
-      <input type="text" formControlName="lastName">
+      <input type="text" formControlName="lastName" required>
     </label>
   
     <label>
       Email:
-      <input type="email" formControlName="email">
+      <input type="email" formControlName="email" required>
     </label>
    
    <label>
       Password:
-      <input type="password" formControlName="password">
+      <input type="text" formControlName="password" required>
     </label>
   
     <label>
@@ -24,6 +26,6 @@
       <input type="date" formControlName="dateOfBirth">
     </label>
   
-    <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+    <button type="submit" [disabled]="!registerForm.valid">Submit</button>
   </form>
   

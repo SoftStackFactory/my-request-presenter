@@ -10,18 +10,22 @@ import { FormArray } from '@angular/forms';
 })
 export class LoginComponent {
   
-  profileForm = this.fb.group({
-    firstName: ['', Validators.required],
-    lastName: [''],
-    email: ['',Validators.required],
-    dateOfBirth: [''],
+  loginForm = this.fb.group({
+    email: ['',[
+      Validators.required,
+      Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$')
+    ]],
+    password: ['', [
+      Validators.required,
+      Validators.pattern('(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&].{8,}')
+    ]],
   });
 
   constructor(private fb: FormBuilder) { }
 
   onSubmit() {
     // TODO: Use EventEmitter with form value
-    console.warn(this.profileForm.value);
+    console.warn(this.loginForm.value);
   }
 
 }
