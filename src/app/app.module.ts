@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // import {MatButtonModule, MatFormFieldModule, MatInputModule, MatRippleModule} from '@angular/material'
-import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatFormFieldModule, MatInputModule} from '@angular/material';
 import { ReactiveFormsModule, FormControl, Validators } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,7 +24,8 @@ import { from } from 'rxjs';
     HttpClientModule,
     TranslocoRootModule,
     ReactiveFormsModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatInputModule,
     
   ],
   

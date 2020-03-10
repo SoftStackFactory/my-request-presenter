@@ -1,26 +1,30 @@
-<mat-form-field >
   <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
-    <input matNativeControl formControlName="name" placeholder="Your name">
-  
-    <p>Your choosen name: {{ myForm.get('name').value }}</p>
-    <div *ngIf="myForm.get('name').hasError('required')">
-      Oops, please provide a name!
-    </div>
-  
-    <input formControlName="email" placeholder="Your email">
-  
-    <div *ngIf="myForm.controls.email.hasError('pattern')">
-      Oops, wrong pattern buddy!
-    </div>
-  
-    <input formControlName="message" placeholder="Your message">
-  
-    <div *ngIf="myForm.controls.message.errors?.minlength">
-      Write something longer please!
-    </div>
-  
-    <button type="submit" [disabled]="myForm.invalid">
-      Send
-    </button>
+    <mat-form-field >
+      <input matInput formControlName="name" placeholder="Your name">
+      <!-- <p>Your choosen name: {{ myForm.get('name').value }}</p> -->
+      <div *ngIf="myForm.get('name').hasError('required')">
+        Oops, please provide a name!
+      </div>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput formControlName="email" placeholder="Your email">
+    
+      <div *ngIf="myForm.controls.email.hasError('pattern')">
+        Oops, wrong pattern buddy!
+      </div>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput formControlName="message" placeholder="Your message">
+    
+      <div *ngIf="myForm.controls.message.errors?.minlength">
+        Write something longer please!
+      </div>
+    </mat-form-field>
+    
+      <button type="submit" [disabled]="myForm.invalid">
+        Send
+      </button>
   </form>
-</mat-form-field>
+  
