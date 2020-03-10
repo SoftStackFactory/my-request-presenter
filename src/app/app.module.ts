@@ -1,16 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+// import {MatButtonModule, MatFormFieldModule, MatInputModule, MatRippleModule} from '@angular/material'
+import {MatFormFieldModule} from '@angular/material/form-field';
 import { ReactiveFormsModule, FormControl, Validators } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
+import { HomeComponent } from './home/home.component';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -19,8 +24,10 @@ import { TranslocoRootModule } from './transloco-root.module';
     HttpClientModule,
     TranslocoRootModule,
     ReactiveFormsModule,
+    MatFormFieldModule
     
   ],
+  
   providers: [FormControl, Validators],
   bootstrap: [AppComponent]
 })
