@@ -7,11 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { CurrencyPipe } from '@angular/common';
+import { LogInComponent } from './components/log-in/log-in.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LogInComponent
   ],
   imports: [
     BrowserModule,
