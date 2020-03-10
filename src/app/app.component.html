@@ -1,5 +1,5 @@
   <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
-    <mat-form-field >
+    <mat-form-field>
       <input matInput formControlName="name" placeholder="Your name">
       <!-- <p>Your choosen name: {{ myForm.get('name').value }}</p> -->
       <div *ngIf="myForm.get('name').hasError('required')">
@@ -9,7 +9,7 @@
 
     <mat-form-field>
       <input matInput formControlName="email" placeholder="Your email">
-    
+
       <div *ngIf="myForm.controls.email.hasError('pattern')">
         Oops, wrong pattern buddy!
       </div>
@@ -17,14 +17,20 @@
 
     <mat-form-field>
       <input matInput formControlName="message" placeholder="Your message">
-    
+
       <div *ngIf="myForm.controls.message.errors?.minlength">
         Write something longer please!
       </div>
     </mat-form-field>
-    
-      <button type="submit" [disabled]="myForm.invalid">
-        Send
-      </button>
+
+
+    <mat-form-field>
+      <mat-label>Choose a Date</mat-label>
+      <input matInput formControlName="dob" [matDatepicker]="picker">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <button mat-raised-button color="primary" [disabled]="myForm.invalid">
+      Send
+    </button>
   </form>
-  
