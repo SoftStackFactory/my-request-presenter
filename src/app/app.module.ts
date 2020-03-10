@@ -10,6 +10,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { HomeComponent } from './home/home.component';
 import { from } from 'rxjs';
+import { CurrencyPipe } from '@angular/common';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,7 @@ import { from } from 'rxjs';
     
   ],
   
-  providers: [FormControl, Validators],
+  providers: [CurrencyPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
