@@ -1,17 +1,36 @@
 <p>register here!</p>
-<form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
-    <input formControlName="firstName" placeholder="Your first name">
-    <input formControlName="lastName" placeholder="Your last name">
-    <input formControlName="email" placeholder="Your email">
-    <input formControlName="password" placeholder="Your password">
-    <input formControlName="DOB" placeholder="Your DOB">
-  
-    <div *ngIf="myForm.invalid">please fill out</div>
 
-    <!-- <button type="submit">Send</button> -->
-    <button type="submit" [disabled]="myForm.invalid" (click)="onSubmit()">Register</button>
+<form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+  <mat-form-field>
+    <input matInput formControlName="firstName" placeholder="Your first name">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput formControlName="lastName" placeholder="Your last name">
+  </mat-form-field>
+  
+  <mat-form-field>
+    <input matInput formControlName="email" placeholder="Your email">
+  </mat-form-field>
+  
+  <mat-form-field>
+    <input matInput formControlName="password" placeholder="Your password">
+  </mat-form-field>
+  
+  <mat-form-field>
+    <input matInput formControlName="DOB" placeholder="Your DOB" matInput [matDatepicker]="myDatepicker"> 
+      <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+      <mat-datepicker #myDatepicker></mat-datepicker>
+  </mat-form-field>
+  
+  <div *ngIf="myForm.invalid">please fill out</div>
+
+  <button type="submit" [disabled]="myForm.invalid" (click)="onSubmit()">Register</button>
+
   </form>
 
+
+  
 <!-- ------------------------------------------------- -->
 <!-- 
   <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">

@@ -11,7 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { CurrencyPipe } from '@angular/common';
-
+import { MatDatepickerModule, MatFormFieldModule, MatNativeDateModule, MatInputModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,12 @@ import { CurrencyPipe } from '@angular/common';
     BrowserAnimationsModule,
     HttpClientModule,
     TranslocoRootModule,
-    ReactiveFormsModule 
+    ReactiveFormsModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatNativeDateModule,
+    MatInputModule,
+    
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]
