@@ -9,7 +9,9 @@ import { TranslocoRootModule } from './transloco-root.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { CurrencyPipe } from '@angular/common';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,7 @@ import { HomeComponent } from './home/home.component'
     TranslocoRootModule,
     ReactiveFormsModule 
   ],
-  providers: [],
+  providers: [CurrencyPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
