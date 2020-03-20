@@ -24,7 +24,7 @@
     "@ngneat/transloco": "^2.13.5",
     "browserlist": "^1.0.1",
     "hammerjs": "^2.0.8",
-    "rxjs": "~6.4.0",
+    "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
