@@ -9,6 +9,7 @@ import { TranslocoRootModule } from './transloco-root.module';
 import { CurrencyPipe } from '@angular/common';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import {MatInputModule} from '@angular/material/input';
 
 
 @NgModule({
@@ -22,7 +23,9 @@ import { RegisterComponent } from './components/register/register.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    TranslocoRootModule
+    TranslocoRootModule,
+    MatInputModule
+    
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]
