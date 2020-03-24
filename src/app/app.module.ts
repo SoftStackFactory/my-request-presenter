@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { CurrencyPipe } from '@angular/common';
 import { NextUpComponent } from './components/next-up/next-up.component';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
