@@ -10,13 +10,16 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component'
 import { CurrencyPipe } from '@angular/common';
+import { AdminFormCreateEventComponent } from './components/admin-form-create-event/admin-form-create-event.component';
+import { MatButtonModule, MatTabsModule, MatStepperModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 
 
 @NgModule({
-  declarations: [
+  declarations: [ 
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AdminFormCreateEventComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,12 @@ import { CurrencyPipe } from '@angular/common';
     BrowserAnimationsModule,
     HttpClientModule,
     TranslocoRootModule,
-    ReactiveFormsModule 
+    ReactiveFormsModule,
+    MatButtonModule,
+    MatTabsModule,
+    MatStepperModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]

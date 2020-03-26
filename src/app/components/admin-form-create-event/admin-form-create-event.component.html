@@ -1,0 +1,38 @@
+
+<mat-tab-group>
+    <mat-tab label="Create Event" (click)="createEvent"> </mat-tab>
+    <mat-tab label="Manage Event"> </mat-tab>
+  </mat-tab-group>
+
+  <p>Welcome, User!</p>
+ 
+
+  <mat-horizontal-stepper linear #stepper>
+    <mat-step>
+        <form [formGroup]="nameFormGroup">
+            <ng-template matStepLabel>Event Name</ng-template>
+            Event Name:
+            <mat-form-field>
+                <mat-label>
+                    <input matInput formControlName="eventName" required placeholder="Event Name...">
+                </mat-label>
+            </mat-form-field>
+        
+        </form>
+    </mat-step>
+    <mat-step>
+        
+        test 2
+        
+        
+    </mat-step>
+      
+    <mat-step>
+        test 3
+        
+
+    </mat-step>
+
+
+  </mat-horizontal-stepper>
+
