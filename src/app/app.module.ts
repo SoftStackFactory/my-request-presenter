@@ -7,16 +7,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { CurrencyPipe } from '@angular/common';
+import {MatGridListModule} from '@angular/material/grid-list';
+
+
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import {MatInputModule} from '@angular/material/input';
+import { MainListComponent } from './components/main-list/main-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    MainListComponent
   ],
   imports: [
     BrowserModule,
@@ -24,8 +29,8 @@ import {MatInputModule} from '@angular/material/input';
     BrowserAnimationsModule,
     HttpClientModule,
     TranslocoRootModule,
-    MatInputModule
-    
+    MatInputModule,
+    MatGridListModule
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]
