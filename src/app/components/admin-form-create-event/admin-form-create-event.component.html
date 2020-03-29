@@ -24,26 +24,28 @@
     </mat-step>
     <mat-step>
         <ng-template matStepLabel>Timing</ng-template>
-        Display: 
-        <mat-slider 
-        [(ngModel)] = "value"
-        [thumbLabel] = "thumbLabel"
-        [min] = "displayMin"
-        [max] = "displayMax"
-        >
-test 1234
-        </mat-slider>
-        
-        Frequency: 
-        <mat-slider 
-        [(ngModel)] = "value2"   
-        [thumbLabel] = "thumbLabel"
-        [min] = "freqMin"
-        [max] = "freqMax"
-        >
-test 1234
-        </mat-slider>
-        
+        <div id="displaySlider"> Display Time (in seconds): 
+            <mat-slider 
+            [(ngModel)] = "value"
+            [thumbLabel] = "thumbLabel"
+            [min] = "displayMin"
+            [max] = "displayMax"
+            >   
+            </mat-slider>
+        </div>
+        <div> Frequency (in seconds): 
+            <mat-slider 
+            [(ngModel)] = "value2"   
+            [thumbLabel] = "thumbLabel"
+            [min] = "freqMin"
+            [max] = "freqMax"
+            >
+            </mat-slider>
+        </div>
+        <div>
+            <button mat-raised-button matStepperPrevious color="primary">Back</button>
+            <button mat-raised-button matStepperNext color="primary">Next</button>
+        </div>
     </mat-step>
       
     <mat-step>
