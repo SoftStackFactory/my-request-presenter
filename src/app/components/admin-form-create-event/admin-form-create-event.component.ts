@@ -10,10 +10,12 @@ import { Router } from '@angular/router'
 export class AdminFormCreateEventComponent implements OnInit {
   nameFormGroup: FormGroup;
   value = 0;
+  value2 = 0;
   thumbLabel = true;
   displayMin = 2;
+  freqMin = 10;
   displayMax = 120;
-  
+  freqMax = 600;
 
   constructor(private _formBuilder: FormBuilder, private _router: Router ) { }
 
