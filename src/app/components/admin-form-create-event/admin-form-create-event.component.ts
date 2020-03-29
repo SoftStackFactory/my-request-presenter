@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-admin-form-create-event',
@@ -8,8 +9,13 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 })
 export class AdminFormCreateEventComponent implements OnInit {
   nameFormGroup: FormGroup;
+  value = 0;
+  thumbLabel = true;
+  displayMin = 2;
+  displayMax = 120;
   
-  constructor(private _formBuilder: FormBuilder ) { }
+
+  constructor(private _formBuilder: FormBuilder, private _router: Router ) { }
 
   ngOnInit() {
     this.nameFormGroup = this._formBuilder.group({
@@ -21,6 +27,10 @@ export class AdminFormCreateEventComponent implements OnInit {
 
   createEvent(){
 
+  }
+
+  goToManage(){
+    this._router.navigate(['/admin-manage'])
   }
 
 

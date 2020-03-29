@@ -1,7 +1,7 @@
 
 <mat-tab-group>
     <mat-tab label="Create Event" (click)="createEvent"> </mat-tab>
-    <mat-tab label="Manage Event"> </mat-tab>
+    <mat-tab label="Manage Event" (click)="goToManage"> </mat-tab>
   </mat-tab-group>
 
   <p>Welcome, User!</p>
@@ -17,17 +17,28 @@
                     <input matInput formControlName="eventName" required placeholder="Event Name...">
                 </mat-label>
             </mat-form-field>
-        
+            <div>
+            <button mat-raised-button matStepperNext color="primary">+ Event</button>
+            </div>
         </form>
     </mat-step>
     <mat-step>
-        
+        <ng-template matStepLabel>Timing</ng-template>
         test 2
+        <mat-slider 
+        [(ngModel)] = "value"
+        [thumbLabel] = "thumbLabel"
+        [min] = "displayMin"
+        [max] = "displayMax"
+        >
+
+        </mat-slider>
         
         
     </mat-step>
       
     <mat-step>
+        <ng-template matStepLabel>Content</ng-template>
         test 3
         
 

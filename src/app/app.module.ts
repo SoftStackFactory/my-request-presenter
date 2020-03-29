@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -11,7 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component'
 import { CurrencyPipe } from '@angular/common';
 import { AdminFormCreateEventComponent } from './components/admin-form-create-event/admin-form-create-event.component';
-import { MatButtonModule, MatTabsModule, MatStepperModule, MatFormFieldModule, MatInputModule } from '@angular/material';
+import { MatButtonModule, MatTabsModule, MatStepperModule, MatFormFieldModule, MatInputModule, MatSliderModule } from '@angular/material';
+import { AdminFormManageEventComponent } from './components/admin-form-manage-event/admin-form-manage-event.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MatButtonModule, MatTabsModule, MatStepperModule, MatFormFieldModule, M
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    AdminFormCreateEventComponent
+    AdminFormCreateEventComponent,
+    AdminFormManageEventComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,9 @@ import { MatButtonModule, MatTabsModule, MatStepperModule, MatFormFieldModule, M
     MatTabsModule,
     MatStepperModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSliderModule,
+    FormsModule
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]
