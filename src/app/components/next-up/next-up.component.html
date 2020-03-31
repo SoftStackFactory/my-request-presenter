@@ -1,1 +1,11 @@
-<p>next-up works!</p>
+<mat-card class="mat-elevation-z0 outline background">
+  <div id="request-info-wrapper">
+    <span class="song-name mat-body-strong truncate">{{ song }}</span>
+    <p class="artist-name mat-body truncate">{{ artist }}</p>
+  </div>
+  <div id="tip">
+    <div id="amount-wrapper">
+      <span class="tip-amount" *ngIf="amount">{{ amount | currency }}</span>
+    </div>
+  </div>
+</mat-card>
