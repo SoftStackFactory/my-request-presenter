@@ -10,8 +10,10 @@ export class NextUpComponent implements OnInit {
   // @Input() song: string;
   // @Input() amount: number;
   // @Input() memo: string;
+  // @Input() amount: number;
 
   // hard coded for now. 
+  place = 3;
   song = 'iusto qui accusantium';
   artist = 'Richard Port Velvahaven';
   memo = 'Illum consectetur ullam quasi.';
