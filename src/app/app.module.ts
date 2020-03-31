@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { CurrencyPipe } from '@angular/common';
 import { NowPlayingComponent } from './components/now-playing/now-playing.component';
-
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,8 @@ import { NowPlayingComponent } from './components/now-playing/now-playing.compon
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    TranslocoRootModule
+    TranslocoRootModule,
+    MatCardModule
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]
