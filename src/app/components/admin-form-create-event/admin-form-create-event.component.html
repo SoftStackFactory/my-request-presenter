@@ -50,9 +50,20 @@
       
     <mat-step>
         <ng-template matStepLabel>Content</ng-template>
-        test 3
-        
-
+        <div style="border-style:solid">
+            Add Content
+            <input type="file">
+            <button mat-raised-button color="secondary">Upload</button>
+        </div>
+        <div style="border-style:solid">
+            Event Line Up
+        </div>
+        <div style="border-style:solid">
+            Gallery
+            <!-- get images from database, display images here.
+             -->
+             <img *ngFor="let image of images" src={{image.src}}>
+        </div>
     </mat-step>
 
 
