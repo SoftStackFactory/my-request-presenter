@@ -57,13 +57,13 @@
         </div>
         <div style="border-style:solid">
             Event Line Up
-            <img *ngFor="let image of images" src={{image.src}} style="height:100px;">
+            <img *ngFor="let image of images" src={{image.src}} style="height:100px;" cdkDropList>
         </div>
         <div style="border-style:solid">
             Gallery
             <!-- get images from database, display images here.
              -->
-             <img *ngFor="let image of images" src={{image.src}} style="height:100px;">
+             <img *ngFor="let image of images" src={{image.src}} style="height:100px;" cdkDrag>
         </div>
     </mat-step>
 
