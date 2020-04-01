@@ -30,6 +30,7 @@ export class AdminFormCreateEventComponent implements OnInit {
   ngOnInit() {
     this.nameFormGroup = this._formBuilder.group({
       eventName: ['', Validators.required]
+
     })
   }
 

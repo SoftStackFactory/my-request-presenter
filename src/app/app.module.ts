@@ -13,7 +13,7 @@ import { CurrencyPipe } from '@angular/common';
 import { AdminFormCreateEventComponent } from './components/admin-form-create-event/admin-form-create-event.component';
 import { MatButtonModule, MatTabsModule, MatStepperModule, MatFormFieldModule, MatInputModule, MatSliderModule } from '@angular/material';
 import { AdminFormManageEventComponent } from './components/admin-form-manage-event/admin-form-manage-event.component';
-
+import { DragDropModule } from '@angular/cdk/drag-drop'
 
 @NgModule({
   declarations: [ 
@@ -36,7 +36,8 @@ import { AdminFormManageEventComponent } from './components/admin-form-manage-ev
     MatFormFieldModule,
     MatInputModule,
     MatSliderModule,
-    FormsModule
+    FormsModule,
+    DragDropModule
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]
