@@ -7,8 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { ReactiveFormsModule } from '@angular/forms';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component'
 import { CurrencyPipe } from '@angular/common';
 import { AdminFormCreateEventComponent } from './components/admin-form-create-event/admin-form-create-event.component';
 import { MatButtonModule, MatTabsModule, MatStepperModule, MatFormFieldModule, MatInputModule, MatSliderModule } from '@angular/material';
@@ -18,8 +16,6 @@ import { DragDropModule } from '@angular/cdk/drag-drop'
 @NgModule({
   declarations: [ 
     AppComponent,
-    LoginComponent,
-    RegisterComponent,
     AdminFormCreateEventComponent,
     AdminFormManageEventComponent
   ],
