@@ -55,10 +55,9 @@
             <input type="file">
             <button mat-raised-button color="secondary">Upload</button>
         </div>
-        <div class="drag-boundary" style="border-style:solid" >
+        <div class="drag-boundary" style="border-style:solid" cdkDragBoundary=".drag-boundary" cdkDropList>
             Event Line Up
-            <img *ngFor="let image of images" src={{image.src}} style="height:100px;" 
-            cdkDragBoundary=".drag-boundary" cdkDropList >
+            <img *ngFor="let image of images" src={{image.src}} style="height:100px;">
         </div>
         <div style="border-style:solid">
             Gallery
