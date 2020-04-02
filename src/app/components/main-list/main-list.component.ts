@@ -7,9 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainListComponent implements OnInit {
 
+  songs = [
+    {
+      name: 'Varona',
+      artist: 'Geographer'
+    },
+    {
+      name: 'Kite',
+      artist: 'Geographer'
+    }
+  ]
+
   constructor() { }
 
   ngOnInit() {
+    
   }
+
+  // getEvents() {
+
+  // }
 
 }

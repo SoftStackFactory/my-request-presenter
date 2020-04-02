@@ -1,6 +1,23 @@
-<div class="header">
-    <mat-toolbar>NOW PLAYING</mat-toolbar>
+<div class="main-list-container">
+    
+    <div>
+        <h2>ADS</h2>
+        <p><img src="/assets/img/geographer-ad.png" alt=""></p>
+    </div>
+    <div style="height: 500px">
+        <h2>NEXT UP SONGS</h2>
+        <div *ngFor="let song of songs">
+            <p>{{song.name}}</p>
+            <p>{{song.artist}}</p>
+        </div>
+    </div>
 </div>
+
+
+<!-- <div style="text-align: center;">
+    <h1>NOW PLAYING</h1>
+</div> -->
+
 <!-- <div style="background-image: url('assets/img/concert.jpg');" fxLayout="row">
     <div style="color: #fff;">NOW PLAYING</div>
     <div fxFlex="50">

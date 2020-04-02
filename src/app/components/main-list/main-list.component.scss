@@ -1,7 +1,28 @@
 mat-grid-tile {
     background: lightblue;
 }
+.main-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    // flex-flow: column wrap;
+    align-content: stretch;
+    
+ }
 
-// .container-bk {
-//     background: url("assets/img/concert.jpg");
+ .main-list-container > div {
+    height: 100px;
+    width: 50%;
+    background-color: #b93c2f;
+    border: 1px solid #626262;
+    margin: 5px;
+    color: #fff;
+    padding: 10px;
+ }
+
+// body {
+//     background: no-repeat url('/assets/img/concert.jpg');
 // }
+
