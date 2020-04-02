@@ -1,5 +1,0 @@
-takeuntil operator 
-http unsubsribe
-
-unsubsribe from observables 
- when never completes
