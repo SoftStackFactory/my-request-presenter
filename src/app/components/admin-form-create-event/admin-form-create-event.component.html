@@ -11,11 +11,8 @@
     <mat-step>
         <form [formGroup]="nameFormGroup">
             <ng-template matStepLabel>Event Name</ng-template>
-            Event Name:
             <mat-form-field>
-                <mat-label>
-                    <input matInput formControlName="eventName" required placeholder="Event Name...">
-                </mat-label>
+                    <input matInput formControlName="eventName" required placeholder="what's your event called?">
             </mat-form-field>
             <div>
             <button mat-raised-button matStepperNext color="primary">+ Event</button>
@@ -50,21 +47,32 @@
       
     <mat-step>
         <ng-template matStepLabel>Content</ng-template>
+
         <div style="border-style:solid">
             Add Content
             <input type="file">
             <button mat-raised-button color="secondary">Upload</button>
         </div>
-        <div class="drag-boundary" style="border-style:solid"  cdkDropList>
+        
+        <div cdkDropList style="border-style:solid" 
+        cdkDropListData=[images1] 
+        #LineUpList="cdkDropList" 
+        [cdkDropListConnectedTo]="GalleryList"
+        (cdkDropListDropped)="drop($event)">
             Event Line Up
-            <!-- <img *ngFor="let image of images" src={{image.src}} style="height:100px;" > -->
+            <img *ngFor="let image of images1" src={{image.src}} style="height:100px;" cdkDrag>
         </div>
-            <div>
+        
+        <div cdkDropList style="border-style:solid" 
+        cdkDropListData=[images2] 
+        #GalleryList="cdkDropList"
+        [cdkDropListConnectedTo]="LineUpList"
+        (cdkDropListDropped)="drop($event)">
             Gallery
             <!-- get images from database, display images here.
              -->
-            <img *ngFor="let image of images" src={{image.src}} style="height:100px;" cdkDrag cdkDragBoundary=".drag-boundary">
-            </div>
+            <img *ngFor="let image of images2" src={{image.src}} style="height:100px;" cdkDrag>
+        </div>
 
         
     </mat-step>
