@@ -55,7 +55,7 @@
         </div>
         
         <div cdkDropList style="border-style:solid" 
-        cdkDropListData=[images1] 
+        [cdkDropListData]="images1"
         #LineUpList="cdkDropList" 
         [cdkDropListConnectedTo]="GalleryList"
         (cdkDropListDropped)="drop($event)">
@@ -64,7 +64,7 @@
         </div>
         
         <div cdkDropList style="border-style:solid" 
-        cdkDropListData=[images2] 
+        [cdkDropListData]="images2"
         #GalleryList="cdkDropList"
         [cdkDropListConnectedTo]="LineUpList"
         (cdkDropListDropped)="drop($event)">
