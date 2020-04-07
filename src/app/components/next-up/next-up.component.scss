@@ -1,19 +1,13 @@
-.outline {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0, 0, 0, 0.12);
-  }
-
-.background {
-  background-color: darken($color: #000000, $amount: 80);
-  opacity: 0.75;
-}
+// .outline {
+//     border-style: solid;
+//     border-width: 1px;
+//     border-color: rgba(0, 0, 0, 0.12);
+//   }
   
   mat-card {
     display: flex;
     margin: 10px;
     padding: 16px;
-    color: white;
   }
   
   #request-info-wrapper {
@@ -41,10 +35,7 @@
   
   #tip {
     display: flex;
-    // flex: 0 0 50%;
-    // justify-content: flex-end;
     align-items: center;
-    // flex-wrap: wrap-reverse;
   }
   
   .actionsSmallScreen {
@@ -77,7 +68,3 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  
-  // .memo-text {
-  
-  // }
