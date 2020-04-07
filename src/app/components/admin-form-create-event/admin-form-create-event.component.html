@@ -87,11 +87,7 @@
         {{event.name}}
         <button mat-raised-button color="primary">Manage</button>
         <button mat-raised-button color="secondary">Archive</button>
-    </div>     
-  </mat-tab>
-  <mat-tab label="Change Event Settings" (click)="goToManage">
-      <!-- ADD logic to hide tab unless event is selected HERE -->
-    <p>Welcome, User!</p> 
+    </div> 
     
     <mat-horizontal-stepper linear #stepper>
         <mat-step>
@@ -164,8 +160,9 @@
         </mat-step>
     
     
-        </mat-horizontal-stepper>
-        </mat-tab>
+        </mat-horizontal-stepper>    
+  </mat-tab>
+
   
 
 </mat-tab-group>
