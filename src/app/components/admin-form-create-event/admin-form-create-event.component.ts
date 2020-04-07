@@ -32,7 +32,10 @@ export class AdminFormCreateEventComponent implements OnInit {
       src : "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
     }
   ]
-
+  eventList = [
+    {name: "Event 1"},
+    {name: "Event 2"}
+  ]
 
   constructor(private _formBuilder: FormBuilder, private _router: Router ) { }
 

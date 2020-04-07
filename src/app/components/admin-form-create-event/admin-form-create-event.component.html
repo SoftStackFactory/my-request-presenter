@@ -1,11 +1,8 @@
 
 <mat-tab-group>
-    <mat-tab label="Create Event" (click)="createEvent"> </mat-tab>
-    <mat-tab label="Manage Event" (click)="goToManage"> </mat-tab>
-  </mat-tab-group>
+    <mat-tab label="Create Event" (click)="createEvent">
 
-  <p>Welcome, User!</p>
- 
+  <p>Welcome, User!</p> 
 
   <mat-horizontal-stepper linear #stepper>
     <mat-step>
@@ -78,6 +75,97 @@
     </mat-step>
 
 
-  </mat-horizontal-stepper>
-  <div>test</div>
+    </mat-horizontal-stepper>
+    </mat-tab>
 
+<!-- //////////////MANAGE EVENT/////////////////// -->
+  <mat-tab label="Manage Event" (click)="goToManage">
+    <p>Welcome, User!</p> 
+    Event List:
+    <div *ngFor="let event of eventList">
+        
+        {{event.name}}
+        <button mat-raised-button color="primary">Manage</button>
+        <button mat-raised-button color="secondary">Archive</button>
+    </div>     
+  </mat-tab>
+  <mat-tab label="Change Event Settings" (click)="goToManage">
+      <!-- ADD logic to hide tab unless event is selected HERE -->
+    <p>Welcome, User!</p> 
+    
+    <mat-horizontal-stepper linear #stepper>
+        <mat-step>
+            <form [formGroup]="nameFormGroup">
+                <ng-template matStepLabel>Event Name</ng-template>
+                <mat-form-field>
+                        <input matInput formControlName="eventName" required placeholder="what's your event called?">
+                </mat-form-field>
+                <div>
+                <button mat-raised-button matStepperNext color="primary">Rename Event</button>
+                </div>
+            </form>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Timing</ng-template>
+            <div id="displaySlider"> Display Time (in seconds): 
+                <mat-slider 
+                [(ngModel)] = "value"
+                [thumbLabel] = "thumbLabel"
+                [min] = "displayMin"
+                [max] = "displayMax"
+                >   
+                </mat-slider>
+            </div>
+            <div> Frequency (in seconds): 
+                <mat-slider 
+                [(ngModel)] = "value2"   
+                [thumbLabel] = "thumbLabel"
+                [min] = "freqMin"
+                [max] = "freqMax"
+                >
+                </mat-slider>
+            </div>
+            <div>
+                <button mat-raised-button matStepperPrevious color="primary">Back</button>
+                <button mat-raised-button matStepperNext color="primary">Next</button>
+            </div>
+        </mat-step>
+          
+        <mat-step>
+            <ng-template matStepLabel>Content</ng-template>
+    
+            <div style="border-style:solid">
+                Add Content
+                <input type="file">
+                <button mat-raised-button color="secondary">Upload</button>
+            </div>
+            
+            <div cdkDropList style="border-style:solid" 
+            [cdkDropListData]="images1"
+            #LineUpList="cdkDropList" 
+            [cdkDropListConnectedTo]="GalleryList"
+            (cdkDropListDropped)="drop($event)">
+                Event Line Up
+                <img *ngFor="let image of images1" src={{image.src}} style="height:100px;" cdkDrag>
+            </div>
+            
+            <div cdkDropList style="border-style:solid" 
+            [cdkDropListData]="images2"
+            #GalleryList="cdkDropList"
+            [cdkDropListConnectedTo]="LineUpList"
+            (cdkDropListDropped)="drop($event)">
+                Gallery
+                <!-- get images from database, display images here.
+                 -->
+                <img *ngFor="let image of images2" src={{image.src}} style="height:100px;" cdkDrag>
+            </div>
+    
+            
+        </mat-step>
+    
+    
+        </mat-horizontal-stepper>
+        </mat-tab>
+  
+
+</mat-tab-group>
