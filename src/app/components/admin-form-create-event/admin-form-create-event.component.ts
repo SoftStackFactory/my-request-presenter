@@ -33,8 +33,8 @@ export class AdminFormCreateEventComponent implements OnInit {
     }
   ]
   eventList = [
-    {name: "Event 1"},
-    {name: "Event 2"}
+    {name: "Campaign 1"},
+    {name: "Campaign 2"}
   ]
 
   constructor(private _formBuilder: FormBuilder, private _router: Router ) { }
