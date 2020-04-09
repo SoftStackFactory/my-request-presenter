@@ -61,6 +61,17 @@ export class AdminFormCreateEventComponent implements OnInit {
 
   }
 
+  showEventDetails : boolean = false;
+  manageButton : boolean = true;
+  editingButton : boolean = false;
+  disabled: boolean;
+
+  displayOptions(){
+    this.showEventDetails = !this.showEventDetails;
+    this.manageButton =!this.manageButton;
+    this.editingButton =!this.editingButton;
+  }
+  
   goToManage(){
     this._router.navigate(['/admin-manage'])
   }

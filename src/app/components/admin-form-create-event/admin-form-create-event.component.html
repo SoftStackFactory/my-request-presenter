@@ -70,7 +70,9 @@
              -->
             <img *ngFor="let image of images2" src={{image.src}} style="height:100px;" cdkDrag>
         </div>
-
+        <div>
+            <button mat-raised-button matStepperNext color="primary">Create My Event</button>
+        </div>
         
     </mat-step>
 
@@ -85,11 +87,12 @@
     <div *ngFor="let event of eventList">
         
         {{event.name}}
-        <button mat-raised-button color="primary">Manage</button>
+        <button mat-raised-button color="primary" (click)="displayOptions()" *ngIf="manageButton">Manage</button>
+        <button mat-raised-button color="primary" (click)="displayOptions()" *ngIf="editingButton" disabled="true">You are editing!</button>
         <button mat-raised-button color="secondary">Archive</button>
     </div> 
     
-    <mat-horizontal-stepper linear #stepper>
+    <mat-horizontal-stepper linear #stepper *ngIf="showEventDetails">
         <mat-step>
             <form [formGroup]="nameFormGroup">
                 <ng-template matStepLabel>Event Name</ng-template>
@@ -98,7 +101,9 @@
                 </mat-form-field>
                 <div>
                 <button mat-raised-button matStepperNext color="primary">Rename Event</button>
+                <button mat-raised-button matStepperNext color="secondary">Skip</button>
                 </div>
+                
             </form>
         </mat-step>
         <mat-step>
@@ -155,7 +160,9 @@
                  -->
                 <img *ngFor="let image of images2" src={{image.src}} style="height:100px;" cdkDrag>
             </div>
-    
+            <div>
+               <button mat-raised-button matStepperNext color="primary">Update Event</button>
+            </div>
             
         </mat-step>
     
