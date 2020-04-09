@@ -10,8 +10,7 @@ import { CurrencyPipe } from '@angular/common';
 import {MatGridListModule} from '@angular/material/grid-list';
 
 
-import { LoginComponent } from './components/login/login.component';
-import { RegisterComponent } from './components/register/register.component';
+
 import {MatInputModule} from '@angular/material/input';
 import { MainListComponent } from './components/main-list/main-list.component';
 
@@ -19,8 +18,6 @@ import { MainListComponent } from './components/main-list/main-list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    RegisterComponent,
     MainListComponent
   ],
   imports: [
