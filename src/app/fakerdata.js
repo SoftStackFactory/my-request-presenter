@@ -1,0 +1,142 @@
+let events = 
+[{
+    "name": "extend",
+    "displayTime": 32,
+    "freqTime": 451,
+    "image1": "http://lorempixel.com/640/480/fashion",
+    "image2": "http://lorempixel.com/640/480/nightlife",
+    "image3": "http://lorempixel.com/640/480/sports"
+}, {
+    "name": "world-class",
+    "displayTime": 103,
+    "freqTime": 84,
+    "image1": "http://lorempixel.com/640/480/fashion",
+    "image2": "http://lorempixel.com/640/480/sports",
+    "image3": "http://lorempixel.com/640/480/fashion"
+}, {
+    "name": "Mouse",
+    "displayTime": 85,
+    "freqTime": 360,
+    "image1": "http://lorempixel.com/640/480/abstract",
+    "image2": "http://lorempixel.com/640/480/food",
+    "image3": "http://lorempixel.com/640/480/sports"
+}, {
+    "name": "quantify",
+    "displayTime": 79,
+    "freqTime": 583,
+    "image1": "http://lorempixel.com/640/480/transport",
+    "image2": "http://lorempixel.com/640/480/cats",
+    "image3": "http://lorempixel.com/640/480/transport"
+}, {
+    "name": "Practical Plastic Keyboard",
+    "displayTime": 39,
+    "freqTime": 554,
+    "image1": "http://lorempixel.com/640/480/sports",
+    "image2": "http://lorempixel.com/640/480/food",
+    "image3": "http://lorempixel.com/640/480/fashion"
+}, {
+    "name": "Ford",
+    "displayTime": 11,
+    "freqTime": 460,
+    "image1": "http://lorempixel.com/640/480/food",
+    "image2": "http://lorempixel.com/640/480/technics",
+    "image3": "http://lorempixel.com/640/480/nature"
+}, {
+    "name": "Junction",
+    "displayTime": 62,
+    "freqTime": 550,
+    "image1": "http://lorempixel.com/640/480/cats",
+    "image2": "http://lorempixel.com/640/480/sports",
+    "image3": "http://lorempixel.com/640/480/technics"
+}, {
+    "name": "Tennessee",
+    "displayTime": 98,
+    "freqTime": 44,
+    "image1": "http://lorempixel.com/640/480/transport",
+    "image2": "http://lorempixel.com/640/480/transport",
+    "image3": "http://lorempixel.com/640/480/technics"
+}, {
+    "name": "Liberian Dollar",
+    "displayTime": 52,
+    "freqTime": 446,
+    "image1": "http://lorempixel.com/640/480/transport",
+    "image2": "http://lorempixel.com/640/480/animals",
+    "image3": "http://lorempixel.com/640/480/technics"
+}, {
+    "name": "JSON",
+    "displayTime": 24,
+    "freqTime": 568,
+    "image1": "http://lorempixel.com/640/480/nature",
+    "image2": "http://lorempixel.com/640/480/fashion",
+    "image3": "http://lorempixel.com/640/480/city"
+}, {
+    "name": "Reduced",
+    "displayTime": 77,
+    "freqTime": 435,
+    "image1": "http://lorempixel.com/640/480/nightlife",
+    "image2": "http://lorempixel.com/640/480/fashion",
+    "image3": "http://lorempixel.com/640/480/abstract"
+}, {
+    "name": "engineer",
+    "displayTime": 2,
+    "freqTime": 65,
+    "image1": "http://lorempixel.com/640/480/cats",
+    "image2": "http://lorempixel.com/640/480/business",
+    "image3": "http://lorempixel.com/640/480/transport"
+}, {
+    "name": "Checking Account",
+    "displayTime": 91,
+    "freqTime": 92,
+    "image1": "http://lorempixel.com/640/480/nature",
+    "image2": "http://lorempixel.com/640/480/technics",
+    "image3": "http://lorempixel.com/640/480/animals"
+}, {
+    "name": "Tasty Metal Bike",
+    "displayTime": 83,
+    "freqTime": 360,
+    "image1": "http://lorempixel.com/640/480/food",
+    "image2": "http://lorempixel.com/640/480/nature",
+    "image3": "http://lorempixel.com/640/480/nature"
+}, {
+    "name": "paradigms",
+    "displayTime": 113,
+    "freqTime": 205,
+    "image1": "http://lorempixel.com/640/480/food",
+    "image2": "http://lorempixel.com/640/480/business",
+    "image3": "http://lorempixel.com/640/480/technics"
+}, {
+    "name": "Investment Account",
+    "displayTime": 65,
+    "freqTime": 141,
+    "image1": "http://lorempixel.com/640/480/city",
+    "image2": "http://lorempixel.com/640/480/business",
+    "image3": "http://lorempixel.com/640/480/city"
+}, {
+    "name": "compress",
+    "displayTime": 112,
+    "freqTime": 215,
+    "image1": "http://lorempixel.com/640/480/cats",
+    "image2": "http://lorempixel.com/640/480/fashion",
+    "image3": "http://lorempixel.com/640/480/transport"
+}, {
+    "name": "Fresh",
+    "displayTime": 26,
+    "freqTime": 332,
+    "image1": "http://lorempixel.com/640/480/nature",
+    "image2": "http://lorempixel.com/640/480/food",
+    "image3": "http://lorempixel.com/640/480/people"
+}, {
+    "name": "Representative",
+    "displayTime": 43,
+    "freqTime": 34,
+    "image1": "http://lorempixel.com/640/480/animals",
+    "image2": "http://lorempixel.com/640/480/technics",
+    "image3": "http://lorempixel.com/640/480/sports"
+}, {
+    "name": "Hryvnia",
+    "displayTime": 67,
+    "freqTime": 88,
+    "image1": "http://lorempixel.com/640/480/technics",
+    "image2": "http://lorempixel.com/640/480/sports",
+    "image3": "http://lorempixel.com/640/480/transport"
+}]
