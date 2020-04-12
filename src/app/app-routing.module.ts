@@ -4,7 +4,7 @@ import { AdminFormCreateEventComponent } from './components/admin-form-create-ev
 
 
 const routes: Routes = [
-  { path: 'new/advertising-config', component: AdminFormCreateEventComponent },
+  { path: 'new/campaign', component: AdminFormCreateEventComponent },
 ];
 
 @NgModule({

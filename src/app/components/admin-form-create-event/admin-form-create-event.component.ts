@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import { Router } from '@angular/router'
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
+import { events } from '../../fakerdata.js';
 
 @Component({
   selector: 'app-admin-form-create-event',
@@ -32,10 +33,12 @@ export class AdminFormCreateEventComponent implements OnInit {
       src : "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
     }
   ]
-  eventList = [
-    {name: "Campaign 1"},
-    {name: "Campaign 2"}
-  ]
+  // eventList = [
+  //   {name: "Campaign 1"},
+  //   {name: "Campaign 2"}
+  // ]
+
+  eventList = events
 
   constructor(private _formBuilder: FormBuilder, private _router: Router ) { }
 

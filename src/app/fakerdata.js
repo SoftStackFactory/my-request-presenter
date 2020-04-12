@@ -1,4 +1,4 @@
-let events = 
+export let events = 
 [{
     "name": "extend",
     "displayTime": 32,
