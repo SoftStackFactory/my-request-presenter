@@ -33,10 +33,7 @@ export class AdminFormCreateEventComponent implements OnInit {
       src : "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
     }
   ]
-  // eventList = [
-  //   {name: "Campaign 1"},
-  //   {name: "Campaign 2"}
-  // ]
+
 
   eventList = events
 
