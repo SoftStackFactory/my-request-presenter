@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AdsService } from '../../services/ads.service';
 
 @Component({
   selector: 'app-main-list',
@@ -7,48 +8,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainListComponent implements OnInit {
 
-  // songs = [
-  //   {
-  //     name: 'Varona',
-  //     artist: 'Geographer'
-  //   },
-  //   {
-  //     name: 'Kite',
-  //     artist: 'Geographer'
-  //   }
-  // ]
   timer: any;
 
   songList=[];
-index = 1;
-songs = [{
-  name: 'Varona',
-  artist: 'Geographer'
-},
-{
-  name: 'Kite',
-  artist: 'Geographer'
-}]
+  adList = [];
+  index = 1;
+  songs = [{
+    name: 'Varona',
+    artist: 'Geographer'
+  },
+  {
+    name: 'Kite',
+    artist: 'Geographer'
+  }]
 
 
 
-  constructor() { }
+  constructor(private adsService: AdsService) { }
 
   ngOnInit() {
-    // if( this.songs[0]) { 
-    //     this.songList.push(this.songs[0]);
-    // } 
-    // this.timer = setInterval(() => {
-    //     if (this.index < this.songs.length) {
-    //        var slist = this.songList.push(this.songs[this.index]);
-    //        this.index++;
-    //        console.log('ads',this.songs)
-           
-    //     } else { 
-    //        clearInterval(this.timer);
-    //     }
-    //  }, 4000)
-    
+    this.adsService.getAds().subscribe((ads: any[]) => {
+      console.log('ADS',ads);
+      this.adList = ads;
+    })
     this.timer = setInterval(() => {
       //this is just a filler action.  We would actually so something like
       // this.adUrl = this.ads[this.index].url
@@ -60,10 +42,7 @@ songs = [{
         // else go to next item
           this.index ++;
         }
-      
     }, 4000)
-
-
   }
 
   // getEvents() {

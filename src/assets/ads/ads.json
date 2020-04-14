@@ -1,0 +1,4502 @@
+[
+    {
+        "adName": "Money Market Account",
+        "frequency": 11,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "secondary",
+        "frequency": 20,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Money Market Account",
+        "frequency": 16,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Secured",
+        "frequency": 17,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Indiana",
+        "frequency": 18,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Awesome",
+        "frequency": 17,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "markets",
+        "frequency": 17,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "maroon",
+        "frequency": 19,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Toys",
+        "frequency": 10,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "emulation",
+        "frequency": 13,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Unbranded",
+        "frequency": 20,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Bedfordshire",
+        "frequency": 18,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "extranet",
+        "frequency": 12,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Isle",
+        "frequency": 17,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "purple",
+        "frequency": 14,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Prairie",
+        "frequency": 17,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Salad",
+        "frequency": 10,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "back up",
+        "frequency": 11,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "virtual",
+        "frequency": 19,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "application",
+        "frequency": 13,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "deposit",
+        "frequency": 17,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "task-force",
+        "frequency": 19,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Metal",
+        "frequency": 15,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "brand",
+        "frequency": 14,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Licensed",
+        "frequency": 13,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "empowering",
+        "frequency": 19,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "hardware",
+        "frequency": 20,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "tan",
+        "frequency": 12,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Games",
+        "frequency": 15,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Borders",
+        "frequency": 14,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Grass-roots",
+        "frequency": 13,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "copying",
+        "frequency": 18,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Tools",
+        "frequency": 17,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Avon",
+        "frequency": 11,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "whiteboard",
+        "frequency": 19,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Credit Card Account",
+        "frequency": 14,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Glens",
+        "frequency": 13,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Tasty",
+        "frequency": 20,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "platforms",
+        "frequency": 14,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Inverse",
+        "frequency": 12,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Berkshire",
+        "frequency": 18,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "digital",
+        "frequency": 14,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Open-architected",
+        "frequency": 16,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Buckinghamshire",
+        "frequency": 18,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Phased",
+        "frequency": 12,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Fish",
+        "frequency": 12,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "RSS",
+        "frequency": 13,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "lime",
+        "frequency": 15,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "revolutionize",
+        "frequency": 19,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "online",
+        "frequency": 11,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "compressing",
+        "frequency": 18,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Games",
+        "frequency": 11,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "stable",
+        "frequency": 18,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Industrial",
+        "frequency": 20,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "even-keeled",
+        "frequency": 10,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "parsing",
+        "frequency": 11,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Realigned",
+        "frequency": 13,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "web-enabled",
+        "frequency": 17,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "benchmark",
+        "frequency": 11,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "magenta",
+        "frequency": 17,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Orchestrator",
+        "frequency": 17,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "EXE",
+        "frequency": 14,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Bike",
+        "frequency": 13,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Ergonomic Rubber Fish",
+        "frequency": 10,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "open-source",
+        "frequency": 16,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Ergonomic",
+        "frequency": 18,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "non-volatile",
+        "frequency": 12,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Games",
+        "frequency": 13,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "capacitor",
+        "frequency": 20,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Rue",
+        "frequency": 18,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "payment",
+        "frequency": 15,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "plug-and-play",
+        "frequency": 10,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "SMTP",
+        "frequency": 12,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "neural",
+        "frequency": 14,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "cultivate",
+        "frequency": 16,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "navigating",
+        "frequency": 20,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "firmware",
+        "frequency": 18,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Factors",
+        "frequency": 17,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Palladium",
+        "frequency": 14,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Frozen",
+        "frequency": 18,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "cyan",
+        "frequency": 18,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "hard drive",
+        "frequency": 17,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "zero tolerance",
+        "frequency": 14,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Money Market Account",
+        "frequency": 10,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Metal",
+        "frequency": 20,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Interactions",
+        "frequency": 13,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Metal",
+        "frequency": 18,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Small Concrete Hat",
+        "frequency": 20,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Ergonomic Rubber Ball",
+        "frequency": 15,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "composite",
+        "frequency": 16,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Supervisor",
+        "frequency": 12,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Exclusive",
+        "frequency": 15,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Music",
+        "frequency": 13,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Computers",
+        "frequency": 18,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "deliverables",
+        "frequency": 17,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Arizona",
+        "frequency": 13,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Brazilian Real",
+        "frequency": 14,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Assurance",
+        "frequency": 14,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Sleek",
+        "frequency": 19,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "driver",
+        "frequency": 18,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Knoll",
+        "frequency": 16,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Dynamic",
+        "frequency": 11,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Enhanced",
+        "frequency": 17,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Usability",
+        "frequency": 14,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "mobile",
+        "frequency": 16,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "supply-chains",
+        "frequency": 14,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "silver",
+        "frequency": 14,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "navigate",
+        "frequency": 16,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Open-source",
+        "frequency": 14,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Fresh",
+        "frequency": 19,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Wooden",
+        "frequency": 17,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "communities",
+        "frequency": 11,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Branding",
+        "frequency": 20,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Money Market Account",
+        "frequency": 15,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "backing up",
+        "frequency": 12,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "web-enabled",
+        "frequency": 11,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Investment Account",
+        "frequency": 17,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Generic",
+        "frequency": 20,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "transmitting",
+        "frequency": 13,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Research",
+        "frequency": 17,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Table",
+        "frequency": 17,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Cayman Islands Dollar",
+        "frequency": 11,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Consultant",
+        "frequency": 11,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Berkshire",
+        "frequency": 15,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Optimization",
+        "frequency": 14,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Planner",
+        "frequency": 17,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Oklahoma",
+        "frequency": 10,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Hat",
+        "frequency": 13,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Legacy",
+        "frequency": 10,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Mouse",
+        "frequency": 13,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "monitor",
+        "frequency": 13,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "withdrawal",
+        "frequency": 10,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "North Dakota",
+        "frequency": 13,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Salad",
+        "frequency": 12,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "online",
+        "frequency": 13,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "open-source",
+        "frequency": 16,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Kenyan Shilling",
+        "frequency": 19,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Automotive",
+        "frequency": 20,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "navigate",
+        "frequency": 13,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Bouvet Island (Bouvetoya)",
+        "frequency": 15,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Gold",
+        "frequency": 15,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "deliverables",
+        "frequency": 20,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "AI",
+        "frequency": 16,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "indigo",
+        "frequency": 20,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "open architecture",
+        "frequency": 11,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "European Unit of Account 17(E.U.A.-17)",
+        "frequency": 18,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Falls",
+        "frequency": 20,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Extensions",
+        "frequency": 14,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Ball",
+        "frequency": 11,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Avon",
+        "frequency": 17,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Dynamic",
+        "frequency": 11,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "index",
+        "frequency": 14,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Soap",
+        "frequency": 18,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "indexing",
+        "frequency": 11,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "cross-media",
+        "frequency": 15,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "analyzer",
+        "frequency": 20,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "New York",
+        "frequency": 18,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "seamless",
+        "frequency": 19,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Alabama",
+        "frequency": 14,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Supervisor",
+        "frequency": 17,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Checking Account",
+        "frequency": 18,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "analyzing",
+        "frequency": 14,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Car",
+        "frequency": 20,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "program",
+        "frequency": 20,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "monitor",
+        "frequency": 15,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Credit Card Account",
+        "frequency": 10,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "metrics",
+        "frequency": 19,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Place",
+        "frequency": 11,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "mindshare",
+        "frequency": 18,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Clothing",
+        "frequency": 11,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Avon",
+        "frequency": 15,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "HDD",
+        "frequency": 15,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "EXE",
+        "frequency": 15,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "eyeballs",
+        "frequency": 17,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Strategist",
+        "frequency": 15,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "real-time",
+        "frequency": 18,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "International",
+        "frequency": 16,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "multi-byte",
+        "frequency": 11,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "redundant",
+        "frequency": 10,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "purple",
+        "frequency": 16,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "firmware",
+        "frequency": 20,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Handcrafted Soft Table",
+        "frequency": 14,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Bike",
+        "frequency": 20,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "function",
+        "frequency": 14,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "copy",
+        "frequency": 12,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "blue",
+        "frequency": 13,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Concrete",
+        "frequency": 14,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Via",
+        "frequency": 16,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Regional",
+        "frequency": 20,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Practical",
+        "frequency": 17,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Virgin Islands, British",
+        "frequency": 13,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "incubate",
+        "frequency": 10,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Junction",
+        "frequency": 11,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Brand",
+        "frequency": 13,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "empowering",
+        "frequency": 16,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Guinea-Bissau",
+        "frequency": 18,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "mobile",
+        "frequency": 12,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Auto Loan Account",
+        "frequency": 20,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Keyboard",
+        "frequency": 18,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Idaho",
+        "frequency": 11,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "paradigms",
+        "frequency": 19,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Producer",
+        "frequency": 10,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "program",
+        "frequency": 10,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "bus",
+        "frequency": 19,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "proactive",
+        "frequency": 13,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "invoice",
+        "frequency": 19,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Ball",
+        "frequency": 16,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "cyan",
+        "frequency": 10,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "tertiary",
+        "frequency": 11,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Soft",
+        "frequency": 20,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Director",
+        "frequency": 14,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "quantify",
+        "frequency": 11,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "payment",
+        "frequency": 19,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Representative",
+        "frequency": 16,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Function-based",
+        "frequency": 10,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Euro",
+        "frequency": 16,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "matrix",
+        "frequency": 15,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "National",
+        "frequency": 20,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "bluetooth",
+        "frequency": 20,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Indian Rupee",
+        "frequency": 20,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "withdrawal",
+        "frequency": 19,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "CSS",
+        "frequency": 19,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Cheese",
+        "frequency": 18,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "intuitive",
+        "frequency": 11,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Face to face",
+        "frequency": 16,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "District",
+        "frequency": 17,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Tasty",
+        "frequency": 11,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "blockchains",
+        "frequency": 19,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Savings Account",
+        "frequency": 18,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Berkshire",
+        "frequency": 17,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "focus group",
+        "frequency": 13,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Regional",
+        "frequency": 20,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "El Salvador",
+        "frequency": 18,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Home Loan Account",
+        "frequency": 18,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Gorgeous Fresh Pants",
+        "frequency": 13,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "leverage",
+        "frequency": 20,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "mobile",
+        "frequency": 10,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "parsing",
+        "frequency": 15,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "zero administration",
+        "frequency": 16,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "bypass",
+        "frequency": 12,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Pennsylvania",
+        "frequency": 11,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "National",
+        "frequency": 19,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "USB",
+        "frequency": 12,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "implement",
+        "frequency": 18,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Forint",
+        "frequency": 19,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Parkway",
+        "frequency": 19,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Internal",
+        "frequency": 10,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "ADP",
+        "frequency": 16,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Shoes",
+        "frequency": 12,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Response",
+        "frequency": 15,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "microchip",
+        "frequency": 20,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "AGP",
+        "frequency": 14,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "District",
+        "frequency": 13,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Keyboard",
+        "frequency": 11,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Credit Card Account",
+        "frequency": 19,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Chair",
+        "frequency": 19,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "hub",
+        "frequency": 10,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "directional",
+        "frequency": 16,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Borders",
+        "frequency": 11,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "South Carolina",
+        "frequency": 10,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "invoice",
+        "frequency": 13,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Walks",
+        "frequency": 11,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Sausages",
+        "frequency": 11,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "array",
+        "frequency": 20,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Auto Loan Account",
+        "frequency": 17,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Fish",
+        "frequency": 15,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Borders",
+        "frequency": 10,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Accountability",
+        "frequency": 15,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Fundamental",
+        "frequency": 17,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "navigate",
+        "frequency": 19,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Expanded",
+        "frequency": 20,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Personal Loan Account",
+        "frequency": 18,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "motivating",
+        "frequency": 19,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "firewall",
+        "frequency": 13,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Kroon",
+        "frequency": 19,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "fresh-thinking",
+        "frequency": 12,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "haptic",
+        "frequency": 12,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "connecting",
+        "frequency": 20,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Serbia",
+        "frequency": 11,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Concrete",
+        "frequency": 14,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "synthesize",
+        "frequency": 14,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "syndicate",
+        "frequency": 12,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Clothing",
+        "frequency": 13,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "static",
+        "frequency": 12,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "calculating",
+        "frequency": 19,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Cambridgeshire",
+        "frequency": 15,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Handcrafted Rubber Fish",
+        "frequency": 10,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Self-enabling",
+        "frequency": 10,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "project",
+        "frequency": 15,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Associate",
+        "frequency": 19,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Auto Loan Account",
+        "frequency": 10,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Legacy",
+        "frequency": 19,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Public-key",
+        "frequency": 20,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Cambridgeshire",
+        "frequency": 20,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "input",
+        "frequency": 19,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Cayman Islands Dollar",
+        "frequency": 19,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Credit Card Account",
+        "frequency": 20,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Gorgeous",
+        "frequency": 11,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Distributed",
+        "frequency": 20,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "cutting-edge",
+        "frequency": 20,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "withdrawal",
+        "frequency": 16,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "EXE",
+        "frequency": 17,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Investment Account",
+        "frequency": 17,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Pizza",
+        "frequency": 15,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "bypass",
+        "frequency": 20,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "web-readiness",
+        "frequency": 12,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "payment",
+        "frequency": 11,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "USB",
+        "frequency": 17,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Unbranded Fresh Computer",
+        "frequency": 11,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "compress",
+        "frequency": 14,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "impactful",
+        "frequency": 14,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Jordanian Dinar",
+        "frequency": 18,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Markets",
+        "frequency": 13,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "collaboration",
+        "frequency": 13,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Bedfordshire",
+        "frequency": 13,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "needs-based",
+        "frequency": 15,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Facilitator",
+        "frequency": 15,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Games",
+        "frequency": 11,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "matrix",
+        "frequency": 16,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "compress",
+        "frequency": 19,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Mount",
+        "frequency": 16,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "index",
+        "frequency": 12,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Grocery",
+        "frequency": 13,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Views",
+        "frequency": 12,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "pixel",
+        "frequency": 18,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Shoals",
+        "frequency": 17,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Rhode Island",
+        "frequency": 18,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Savings Account",
+        "frequency": 16,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Pizza",
+        "frequency": 11,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Investment Account",
+        "frequency": 19,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "connect",
+        "frequency": 12,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Savings Account",
+        "frequency": 18,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "bluetooth",
+        "frequency": 14,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "bluetooth",
+        "frequency": 17,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Guam",
+        "frequency": 11,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "grey",
+        "frequency": 17,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Chicken",
+        "frequency": 12,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "invoice",
+        "frequency": 12,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "teal",
+        "frequency": 19,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Investment Account",
+        "frequency": 17,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "protocol",
+        "frequency": 19,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Books",
+        "frequency": 12,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Georgia",
+        "frequency": 14,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Assistant",
+        "frequency": 18,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "synergistic",
+        "frequency": 13,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "index",
+        "frequency": 11,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Forward",
+        "frequency": 20,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Tasty Wooden Sausages",
+        "frequency": 11,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Refined",
+        "frequency": 19,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Credit Card Account",
+        "frequency": 13,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Hollow",
+        "frequency": 17,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Gabon",
+        "frequency": 12,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Operative",
+        "frequency": 10,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "national",
+        "frequency": 17,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Producer",
+        "frequency": 16,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Incredible Rubber Chicken",
+        "frequency": 18,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Analyst",
+        "frequency": 12,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "synergies",
+        "frequency": 17,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "deposit",
+        "frequency": 17,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "magenta",
+        "frequency": 18,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "interface",
+        "frequency": 13,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Chicken",
+        "frequency": 14,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Bedfordshire",
+        "frequency": 13,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "hacking",
+        "frequency": 11,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Supervisor",
+        "frequency": 10,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Algeria",
+        "frequency": 16,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Jewelery",
+        "frequency": 11,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "sky blue",
+        "frequency": 14,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Savings Account",
+        "frequency": 17,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "info-mediaries",
+        "frequency": 20,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "web-readiness",
+        "frequency": 17,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Future",
+        "frequency": 11,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Directives",
+        "frequency": 12,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "end-to-end",
+        "frequency": 12,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Jewelery",
+        "frequency": 10,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "neural",
+        "frequency": 20,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Illinois",
+        "frequency": 20,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Global",
+        "frequency": 11,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Kazakhstan",
+        "frequency": 19,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "frictionless",
+        "frequency": 10,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Keyboard",
+        "frequency": 16,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Global",
+        "frequency": 16,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "hacking",
+        "frequency": 18,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "hack",
+        "frequency": 17,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Kentucky",
+        "frequency": 15,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Baby",
+        "frequency": 15,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Assistant",
+        "frequency": 17,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Usability",
+        "frequency": 18,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "dynamic",
+        "frequency": 14,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "firewall",
+        "frequency": 12,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Officer",
+        "frequency": 14,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "index",
+        "frequency": 10,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Soap",
+        "frequency": 19,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "executive",
+        "frequency": 17,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Beauty",
+        "frequency": 13,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Cotton",
+        "frequency": 18,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Pines",
+        "frequency": 17,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Svalbard & Jan Mayen Islands",
+        "frequency": 11,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Brunei Dollar",
+        "frequency": 12,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Chicken",
+        "frequency": 11,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "24/365",
+        "frequency": 11,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "evolve",
+        "frequency": 17,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Borders",
+        "frequency": 12,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "access",
+        "frequency": 12,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Bedfordshire",
+        "frequency": 20,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "visualize",
+        "frequency": 14,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "functionalities",
+        "frequency": 15,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "incubate",
+        "frequency": 20,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "granular",
+        "frequency": 11,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Handcrafted",
+        "frequency": 13,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Human",
+        "frequency": 13,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "platforms",
+        "frequency": 19,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Associate",
+        "frequency": 10,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Buckinghamshire",
+        "frequency": 19,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Incredible",
+        "frequency": 10,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Industrial",
+        "frequency": 20,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "paradigms",
+        "frequency": 15,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Car",
+        "frequency": 10,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Accounts",
+        "frequency": 16,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Path",
+        "frequency": 18,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "invoice",
+        "frequency": 12,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "SCSI",
+        "frequency": 15,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "Shoes",
+        "frequency": 13,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "bricks-and-clicks",
+        "frequency": 10,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "hack",
+        "frequency": 18,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Afghani",
+        "frequency": 19,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "New Jersey",
+        "frequency": 15,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Awesome Metal Shoes",
+        "frequency": 12,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Berkshire",
+        "frequency": 11,
+        "duration": 16,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Fresh",
+        "frequency": 20,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Handcrafted",
+        "frequency": 19,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Soft",
+        "frequency": 15,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Representative",
+        "frequency": 12,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Generic",
+        "frequency": 18,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Dominica",
+        "frequency": 15,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "XSS",
+        "frequency": 18,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "analyzer",
+        "frequency": 18,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Beauty",
+        "frequency": 20,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Incredible Granite Hat",
+        "frequency": 10,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "deposit",
+        "frequency": 12,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Buckinghamshire",
+        "frequency": 14,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Cotton",
+        "frequency": 18,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "AGP",
+        "frequency": 11,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Bedfordshire",
+        "frequency": 13,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Avon",
+        "frequency": 15,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "wireless",
+        "frequency": 11,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "Officer",
+        "frequency": 16,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "value-added",
+        "frequency": 10,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "connecting",
+        "frequency": 10,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Investor",
+        "frequency": 17,
+        "duration": 20,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "whiteboard",
+        "frequency": 11,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "withdrawal",
+        "frequency": 13,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "gold",
+        "frequency": 11,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "Borders",
+        "frequency": 12,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "Unbranded Concrete Soap",
+        "frequency": 17,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "neural-net",
+        "frequency": 19,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "International",
+        "frequency": 20,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Computer",
+        "frequency": 10,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "calculating",
+        "frequency": 17,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "Bedfordshire",
+        "frequency": 13,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "program",
+        "frequency": 13,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/nightlife",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "intuitive",
+        "frequency": 16,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/fashion",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "invoice",
+        "frequency": 11,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "deposit",
+        "frequency": 14,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "Aruban Guilder",
+        "frequency": 20,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "efficient",
+        "frequency": 15,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "project",
+        "frequency": 17,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Agent",
+        "frequency": 20,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "sky blue",
+        "frequency": 12,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/city",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "transmit",
+        "frequency": 19,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "withdrawal",
+        "frequency": 18,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/business"
+    },
+    {
+        "adName": "wireless",
+        "frequency": 14,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "program",
+        "frequency": 19,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "communities",
+        "frequency": 10,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "e-business",
+        "frequency": 12,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Synchronised",
+        "frequency": 20,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/business",
+        "adImage4": "http://lorempixel.com/640/480/fashion"
+    },
+    {
+        "adName": "reintermediate",
+        "frequency": 15,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/business",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "product",
+        "frequency": 13,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Pennsylvania",
+        "frequency": 16,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/cats",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Mississippi",
+        "frequency": 19,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/nightlife",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Mozambique",
+        "frequency": 17,
+        "duration": 14,
+        "adImage1": "http://lorempixel.com/640/480/sports",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "encryption",
+        "frequency": 10,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/food",
+        "adImage2": "http://lorempixel.com/640/480/people",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "product",
+        "frequency": 19,
+        "duration": 15,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "Tasty Metal Computer",
+        "frequency": 18,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/nightlife",
+        "adImage2": "http://lorempixel.com/640/480/transport",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Adaptive",
+        "frequency": 14,
+        "duration": 12,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/business",
+        "adImage3": "http://lorempixel.com/640/480/fashion",
+        "adImage4": "http://lorempixel.com/640/480/city"
+    },
+    {
+        "adName": "Soft",
+        "frequency": 19,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/animals"
+    },
+    {
+        "adName": "Lead",
+        "frequency": 15,
+        "duration": 17,
+        "adImage1": "http://lorempixel.com/640/480/abstract",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/animals",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "feed",
+        "frequency": 12,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "deposit",
+        "frequency": 14,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/transport",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/nature",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    },
+    {
+        "adName": "invoice",
+        "frequency": 12,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/sports",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "revolutionary",
+        "frequency": 19,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/abstract",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/technics"
+    },
+    {
+        "adName": "National",
+        "frequency": 20,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/food"
+    },
+    {
+        "adName": "digital",
+        "frequency": 13,
+        "duration": 11,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/city",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/sports"
+    },
+    {
+        "adName": "grey",
+        "frequency": 11,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/technics",
+        "adImage2": "http://lorempixel.com/640/480/food",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "value-added",
+        "frequency": 16,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/animals",
+        "adImage2": "http://lorempixel.com/640/480/sports",
+        "adImage3": "http://lorempixel.com/640/480/technics",
+        "adImage4": "http://lorempixel.com/640/480/abstract"
+    },
+    {
+        "adName": "Factors",
+        "frequency": 12,
+        "duration": 19,
+        "adImage1": "http://lorempixel.com/640/480/cats",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/cats",
+        "adImage4": "http://lorempixel.com/640/480/nightlife"
+    },
+    {
+        "adName": "capacitor",
+        "frequency": 15,
+        "duration": 13,
+        "adImage1": "http://lorempixel.com/640/480/nature",
+        "adImage2": "http://lorempixel.com/640/480/technics",
+        "adImage3": "http://lorempixel.com/640/480/people",
+        "adImage4": "http://lorempixel.com/640/480/people"
+    },
+    {
+        "adName": "Grass-roots",
+        "frequency": 13,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/people",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/abstract",
+        "adImage4": "http://lorempixel.com/640/480/transport"
+    },
+    {
+        "adName": "Home",
+        "frequency": 18,
+        "duration": 18,
+        "adImage1": "http://lorempixel.com/640/480/city",
+        "adImage2": "http://lorempixel.com/640/480/nature",
+        "adImage3": "http://lorempixel.com/640/480/food",
+        "adImage4": "http://lorempixel.com/640/480/cats"
+    },
+    {
+        "adName": "Branding",
+        "frequency": 19,
+        "duration": 10,
+        "adImage1": "http://lorempixel.com/640/480/fashion",
+        "adImage2": "http://lorempixel.com/640/480/animals",
+        "adImage3": "http://lorempixel.com/640/480/transport",
+        "adImage4": "http://lorempixel.com/640/480/nature"
+    }
+]
