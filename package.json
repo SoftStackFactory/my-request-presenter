@@ -23,7 +23,6 @@
     "@angular/router": "~8.2.14",
     "@ngneat/transloco": "^2.13.5",
     "browserlist": "^1.0.1",
-    "faker": "git+https://github.com/Marak/faker.js.git",
     "hammerjs": "^2.0.8",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
