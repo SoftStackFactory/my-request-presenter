@@ -81,10 +81,10 @@
     </mat-tab>
 
 <!-- //////////////MANAGE EVENT/////////////////// -->
-  <mat-tab label="Manage Campaign" (click)="goToManage">
+  <mat-tab label="Manage Campaign" (click)="goToManage()">
     <p>Welcome, User!</p> 
     Campaigns List:
-    <div *ngFor="let event of eventList">
+    <div *ngFor="let event of _campaigns.events">
         
         {{event.name}}
         <button mat-raised-button color="primary" (click)="displayOptions()" *ngIf="manageButton">Manage</button>

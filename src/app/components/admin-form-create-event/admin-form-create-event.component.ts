@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import { Router } from '@angular/router'
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
-import { events } from '../../fakerdata.js';
+import { CampaignsService } from '../../../app/campaigns.service'
 
 @Component({
   selector: 'app-admin-form-create-event',
@@ -35,11 +35,16 @@ export class AdminFormCreateEventComponent implements OnInit {
   ]
 
 
-  eventList = events
 
-  constructor(private _formBuilder: FormBuilder, private _router: Router ) { }
+
+  constructor(private _formBuilder: FormBuilder, private _router: Router, private _campaigns: CampaignsService) { }
+
 
   ngOnInit() {
+    this._campaigns.getCampaigns()
+
+  // eventList = this.events
+
     this.nameFormGroup = this._formBuilder.group({
       eventName: ['', Validators.required]
 
