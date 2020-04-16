@@ -1,6 +1,6 @@
 
 <mat-tab-group>
-    <mat-tab label="Create Campaign" (click)="createEvent">
+    <mat-tab label="Create Campaign">
 
   <p>Welcome, User!</p> 
 
@@ -66,8 +66,6 @@
         [cdkDropListConnectedTo]="LineUpList"
         (cdkDropListDropped)="drop($event)">
             Gallery
-            <!-- get images from database, display images here.
-             -->
             <img *ngFor="let image of images2" src={{image.src}} style="height:100px;" cdkDrag>
         </div>
         <div>
@@ -81,21 +79,28 @@
     </mat-tab>
 
 <!-- //////////////MANAGE EVENT/////////////////// -->
-  <mat-tab label="Manage Campaign" (click)="goToManage()">
+
+<mat-tab label="Manage Campaign">
+  <div *ngIf="manageButton; else elseBlock">  
     <p>Welcome, User!</p> 
     Campaigns List:
     <div *ngFor="let event of _campaigns.events">
         
         {{event.name}}
-        <button mat-raised-button color="primary" (click)="displayOptions()" *ngIf="manageButton">Manage</button>
+        <button mat-raised-button color="primary" (click)="displayOptions(this.event)" *ngIf="manageButton">Manage</button>
         <button mat-raised-button color="primary" (click)="displayOptions()" *ngIf="editingButton" disabled="true">You are editing!</button>
         <button mat-raised-button color="secondary">Archive</button>
     </div> 
+  </div>
+
+    <ng-template #elseBlock>
+            <p>You are editing!</p> 
+    </ng-template>
     
     <mat-horizontal-stepper linear #stepper *ngIf="showEventDetails">
         <mat-step>
             <form [formGroup]="nameFormGroup">
-                <ng-template matStepLabel>Campaign Name</ng-template>
+                <ng-template matStepLabel>Campaign: {{event.name}}</ng-template>
                 <mat-form-field>
                         <input matInput formControlName="eventName" required placeholder="what's your campaign called?">
                 </mat-form-field>
@@ -110,7 +115,7 @@
             <ng-template matStepLabel>Timing</ng-template>
             <div id="displaySlider"> Display Time (in seconds): 
                 <mat-slider 
-                [(ngModel)] = "value"
+                [(ngModel)] = "event.displayTime"
                 [thumbLabel] = "thumbLabel"
                 [min] = "displayMin"
                 [max] = "displayMax"
@@ -119,7 +124,7 @@
             </div>
             <div> Frequency (in seconds): 
                 <mat-slider 
-                [(ngModel)] = "value2"   
+                [(ngModel)] = "event.freqTime"   
                 [thumbLabel] = "thumbLabel"
                 [min] = "freqMin"
                 [max] = "freqMax"
@@ -140,14 +145,13 @@
                 <input type="file">
                 <button mat-raised-button color="secondary">Upload</button>
             </div>
-            
             <div cdkDropList style="border-style:solid" 
             [cdkDropListData]="images1"
             #LineUpList="cdkDropList" 
             [cdkDropListConnectedTo]="GalleryList"
             (cdkDropListDropped)="drop($event)">
             Campaign Line Up
-                <img *ngFor="let image of images1" src={{image.src}} style="height:100px;" cdkDrag>
+                <img src={{event.image1}} style="height:100px;" cdkDrag>
             </div>
             
             <div cdkDropList style="border-style:solid" 

@@ -35,8 +35,6 @@ export class AdminFormCreateEventComponent implements OnInit {
   ]
 
 
-
-
   constructor(private _formBuilder: FormBuilder, private _router: Router, private _campaigns: CampaignsService) { }
 
 
@@ -62,24 +60,18 @@ export class AdminFormCreateEventComponent implements OnInit {
     }
   }
 
-  createEvent(){
-
-  }
-
   showEventDetails : boolean = false;
   manageButton : boolean = true;
   editingButton : boolean = false;
   disabled: boolean;
+  event: any;
 
-  displayOptions(){
+  displayOptions(arg){
     this.showEventDetails = !this.showEventDetails;
     this.manageButton =!this.manageButton;
     this.editingButton =!this.editingButton;
+    this.event = arg;
+    this.nameFormGroup.patchValue({
+      arg});
   }
-  
-  goToManage(){
-    this._router.navigate(['/admin-manage'])
-  }
-
-
 }

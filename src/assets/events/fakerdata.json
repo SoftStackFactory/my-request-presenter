@@ -1,142 +1,141 @@
-
 [{
-    "name": "extend",
-    "displayTime": 32,
-    "freqTime": 451,
-    "image1": "http://lorempixel.com/640/480/fashion",
-    "image2": "http://lorempixel.com/640/480/nightlife",
-    "image3": "http://lorempixel.com/640/480/sports"
-}, {
-    "name": "world-class",
-    "displayTime": 103,
-    "freqTime": 84,
-    "image1": "http://lorempixel.com/640/480/fashion",
-    "image2": "http://lorempixel.com/640/480/sports",
-    "image3": "http://lorempixel.com/640/480/fashion"
-}, {
-    "name": "Mouse",
-    "displayTime": 85,
-    "freqTime": 360,
-    "image1": "http://lorempixel.com/640/480/abstract",
-    "image2": "http://lorempixel.com/640/480/food",
-    "image3": "http://lorempixel.com/640/480/sports"
-}, {
-    "name": "quantify",
-    "displayTime": 79,
-    "freqTime": 583,
-    "image1": "http://lorempixel.com/640/480/transport",
-    "image2": "http://lorempixel.com/640/480/cats",
-    "image3": "http://lorempixel.com/640/480/transport"
-}, {
-    "name": "Practical Plastic Keyboard",
-    "displayTime": 39,
-    "freqTime": 554,
-    "image1": "http://lorempixel.com/640/480/sports",
-    "image2": "http://lorempixel.com/640/480/food",
-    "image3": "http://lorempixel.com/640/480/fashion"
-}, {
-    "name": "Ford",
-    "displayTime": 11,
-    "freqTime": 460,
-    "image1": "http://lorempixel.com/640/480/food",
-    "image2": "http://lorempixel.com/640/480/technics",
-    "image3": "http://lorempixel.com/640/480/nature"
-}, {
-    "name": "Junction",
-    "displayTime": 62,
-    "freqTime": 550,
-    "image1": "http://lorempixel.com/640/480/cats",
-    "image2": "http://lorempixel.com/640/480/sports",
-    "image3": "http://lorempixel.com/640/480/technics"
-}, {
-    "name": "Tennessee",
+    "name": "Isle",
     "displayTime": 98,
-    "freqTime": 44,
-    "image1": "http://lorempixel.com/640/480/transport",
-    "image2": "http://lorempixel.com/640/480/transport",
-    "image3": "http://lorempixel.com/640/480/technics"
+    "freqTime": 469,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
 }, {
-    "name": "Liberian Dollar",
-    "displayTime": 52,
-    "freqTime": 446,
-    "image1": "http://lorempixel.com/640/480/transport",
-    "image2": "http://lorempixel.com/640/480/animals",
-    "image3": "http://lorempixel.com/640/480/technics"
-}, {
-    "name": "JSON",
-    "displayTime": 24,
-    "freqTime": 568,
-    "image1": "http://lorempixel.com/640/480/nature",
-    "image2": "http://lorempixel.com/640/480/fashion",
-    "image3": "http://lorempixel.com/640/480/city"
-}, {
-    "name": "Reduced",
-    "displayTime": 77,
-    "freqTime": 435,
-    "image1": "http://lorempixel.com/640/480/nightlife",
-    "image2": "http://lorempixel.com/640/480/fashion",
-    "image3": "http://lorempixel.com/640/480/abstract"
-}, {
-    "name": "engineer",
-    "displayTime": 2,
-    "freqTime": 65,
-    "image1": "http://lorempixel.com/640/480/cats",
-    "image2": "http://lorempixel.com/640/480/business",
-    "image3": "http://lorempixel.com/640/480/transport"
+    "name": "Hat",
+    "displayTime": 110,
+    "freqTime": 109,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
 }, {
     "name": "Checking Account",
-    "displayTime": 91,
-    "freqTime": 92,
-    "image1": "http://lorempixel.com/640/480/nature",
-    "image2": "http://lorempixel.com/640/480/technics",
-    "image3": "http://lorempixel.com/640/480/animals"
+    "displayTime": 57,
+    "freqTime": 583,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
 }, {
-    "name": "Tasty Metal Bike",
-    "displayTime": 83,
-    "freqTime": 360,
-    "image1": "http://lorempixel.com/640/480/food",
-    "image2": "http://lorempixel.com/640/480/nature",
-    "image3": "http://lorempixel.com/640/480/nature"
+    "name": "e-tailers",
+    "displayTime": 71,
+    "freqTime": 561,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
 }, {
-    "name": "paradigms",
+    "name": "grey",
+    "displayTime": 106,
+    "freqTime": 138,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "Director",
+    "displayTime": 20,
+    "freqTime": 245,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "Trinidad and Tobago",
+    "displayTime": 109,
+    "freqTime": 127,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "deposit",
+    "displayTime": 78,
+    "freqTime": 470,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "Tasty Cotton Salad",
+    "displayTime": 18,
+    "freqTime": 90,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "Dynamic",
+    "displayTime": 13,
+    "freqTime": 367,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "Mouse",
+    "displayTime": 57,
+    "freqTime": 344,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "azure",
+    "displayTime": 71,
+    "freqTime": 513,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "Bedfordshire",
+    "displayTime": 97,
+    "freqTime": 196,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "PNG",
+    "displayTime": 70,
+    "freqTime": 305,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "European Unit of Account 9(E.U.A.-9)",
+    "displayTime": 79,
+    "freqTime": 27,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
+}, {
+    "name": "Supervisor",
     "displayTime": 113,
-    "freqTime": 205,
-    "image1": "http://lorempixel.com/640/480/food",
-    "image2": "http://lorempixel.com/640/480/business",
-    "image3": "http://lorempixel.com/640/480/technics"
+    "freqTime": 593,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
 }, {
-    "name": "Investment Account",
-    "displayTime": 65,
-    "freqTime": 141,
-    "image1": "http://lorempixel.com/640/480/city",
-    "image2": "http://lorempixel.com/640/480/business",
-    "image3": "http://lorempixel.com/640/480/city"
+    "name": "bifurcated",
+    "displayTime": 45,
+    "freqTime": 482,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
 }, {
-    "name": "compress",
-    "displayTime": 112,
-    "freqTime": 215,
-    "image1": "http://lorempixel.com/640/480/cats",
-    "image2": "http://lorempixel.com/640/480/fashion",
-    "image3": "http://lorempixel.com/640/480/transport"
+    "name": "benchmark",
+    "displayTime": 51,
+    "freqTime": 79,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
 }, {
-    "name": "Fresh",
-    "displayTime": 26,
-    "freqTime": 332,
-    "image1": "http://lorempixel.com/640/480/nature",
-    "image2": "http://lorempixel.com/640/480/food",
-    "image3": "http://lorempixel.com/640/480/people"
+    "name": "pricing structure",
+    "displayTime": 64,
+    "freqTime": 190,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
 }, {
-    "name": "Representative",
-    "displayTime": 43,
-    "freqTime": 34,
-    "image1": "http://lorempixel.com/640/480/animals",
-    "image2": "http://lorempixel.com/640/480/technics",
-    "image3": "http://lorempixel.com/640/480/sports"
-}, {
-    "name": "Hryvnia",
-    "displayTime": 67,
-    "freqTime": 88,
-    "image1": "http://lorempixel.com/640/480/technics",
-    "image2": "http://lorempixel.com/640/480/sports",
-    "image3": "http://lorempixel.com/640/480/transport"
+    "name": "Cuban Peso Peso Convertible",
+    "displayTime": 76,
+    "freqTime": 285,
+    "image1": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image2": "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+    "image3": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
 }]
