@@ -146,21 +146,27 @@
                 <button mat-raised-button color="secondary">Upload</button>
             </div>
             <div cdkDropList style="border-style:solid" 
-            [cdkDropListData]="images1"
+            [cdkDropListData]="currentCampaignImages"
             #LineUpList="cdkDropList" 
             [cdkDropListConnectedTo]="GalleryList"
             (cdkDropListDropped)="drop($event)">
             Campaign Line Up
-                <img src={{event.image1}} style="height:100px;" cdkDrag>
+            <div *ngFor="let image of currentCampaignImages">
+                <img [src]="image" style="height:100px;" cdkDrag>
+            </div>
+                <!-- <img  src={{event.campaignImages.image2}} style="height:100px;" cdkDrag> -->
             </div>
             
             <div cdkDropList style="border-style:solid" 
-            [cdkDropListData]="images2"
+            [cdkDropListData]="currentGalleryImages"
             #GalleryList="cdkDropList"
             [cdkDropListConnectedTo]="LineUpList"
-            (cdkDropListDropped)="drop($event)">
+            (cdkDropListDropped)="drop($event)">    
                 Gallery
-                <img *ngFor="let image of images2" src={{image.src}} style="height:100px;" cdkDrag>
+                <div *ngFor="let image of currentGalleryImages">
+                <img [src]="image" style="height:100px;" cdkDrag>
+                </div>
+                <!-- <img  src={{event.galleryImages.image3}} style="height:100px;" cdkDrag> -->
             </div>
             <div>
                <button mat-raised-button matStepperNext color="primary">Update Campaign</button>
