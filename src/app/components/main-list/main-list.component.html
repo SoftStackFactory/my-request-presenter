@@ -2,7 +2,16 @@
     
     <div>
         <h2>ADS</h2>
-        <p><img src="/assets/img/geographer-ad.png" alt=""></p>
+        <!-- <p><img src="/assets/img/geographer-ad.png" alt=""></p> -->
+        <p><img [src]="adUrl"></p>
+        <!-- <div style="height: 500px">
+            <h2>ADS</h2>
+            <div *ngFor="let adList of adList">
+                <p>{{adList.adUrl}}</p>
+                <p>{{song.artist}}</p>
+            </div>
+        </div> -->
+        
     </div>
     <div style="height: 500px">
         <h2>NEXT UP SONGS</h2>

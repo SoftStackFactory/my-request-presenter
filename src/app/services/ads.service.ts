@@ -6,11 +6,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AdsService {
 
-  ads = '../../assets/ads.json';
+  ads = 'assets/ads/ads.json';
 
   constructor(private httpClient: HttpClient) { }
 
   getAds() {
-    return this.httpClient.get(this.ads);
+    return this.httpClient.get(this.ads); 
   }
 }

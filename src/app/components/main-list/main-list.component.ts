@@ -9,6 +9,7 @@ import { AdsService } from '../../services/ads.service';
 export class MainListComponent implements OnInit {
 
   timer: any;
+  adUrl: any;
 
   songList=[];
   adList = [];
@@ -27,10 +28,27 @@ export class MainListComponent implements OnInit {
   constructor(private adsService: AdsService) { }
 
   ngOnInit() {
+
     this.adsService.getAds().subscribe((ads: any[]) => {
-      console.log('ADS',ads);
-      this.adList = ads;
+      console.log('ADS',ads)
+      // this.adList = ads[0].adImage1;
+      this.adUrl = ads[0].adImage1;
+      console.log('ad url', this.adList);
+      this.timer = setInterval(() => {
+        console.log('ADLIST');
+        this.adUrl = this.adList[this.index]
+        console.log('list here',this.adUrl);
+        if(this.index === this.songs.length -1){
+          this.index = 0
+        } else {
+          this.index++;
+        }
+      }, ads[0].duration * 1000);
     })
+    // this.adsService.getAds().subscribe((ads: any[]) => {
+    //   console.log('ADS',ads);
+    //   this.adList = ads;
+    // })
     this.timer = setInterval(() => {
       //this is just a filler action.  We would actually so something like
       // this.adUrl = this.ads[this.index].url
@@ -43,6 +61,8 @@ export class MainListComponent implements OnInit {
           this.index ++;
         }
     }, 4000)
+
+
   }
 
   // getEvents() {
