@@ -2,7 +2,7 @@
     
     <div>
         <h2>ADS</h2>
-        <!-- <p><img src="/assets/img/geographer-ad.png" alt=""></p> -->
+        <!-- <p><img src="assets/img/geographer-ad.png" alt=""></p> -->
         <p><img [src]="adUrl"></p>
         <!-- <div style="height: 500px">
             <h2>ADS</h2>
@@ -15,10 +15,12 @@
     </div>
     <div style="height: 500px">
         <h2>NEXT UP SONGS</h2>
-        <div *ngFor="let song of songs">
+        <!-- displays song name  -->
+        <p>{{this.songName}}</p>
+        <!-- <div *ngFor="let song of songs">
             <p>{{song.name}}</p>
-            <p>{{song.artist}}</p>
-        </div>
+           
+        </div> -->
     </div>
 </div>
 
