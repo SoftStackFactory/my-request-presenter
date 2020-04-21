@@ -12,12 +12,11 @@ export class MainListComponent implements OnInit {
   adUrl: any;
   songName: any;
   ads: any;
-  songImg: any;
 
-  songList=[];
   adList = [];
   index1 = 1;
   index2 = 1;
+  
   songs = [{
     name: 'Varona',
     artist: 'Geographer',
@@ -50,14 +49,8 @@ export class MainListComponent implements OnInit {
       console.log('ADS',ads)
       this.adList = ads[0].adImages;
       console.log('ADLIST', this.adList)
-      // this.adUrl = ads[0].adImages[1]; //this works
-      // this.adUrl = this.ads[this.index1];
-      // console.log('ad url', this.adUrl);
-      // this.adUrl = this.ads[this.index1].adImages;
-      // console.log('ADURLS', this.adUrl);
       this.timer = setInterval(() => {
         console.log('ADLIST');
-        // this.adUrl = this.ads[0].adImages;
         this.adUrl = this.adList[this.index1];
         console.log('list here',this.adUrl);
         if(this.index1 === this.songs.length -1){
@@ -67,15 +60,9 @@ export class MainListComponent implements OnInit {
         }
       }, ads[0].duration * 500);
     })
-    // this.adsService.getAds().subscribe((ads: any[]) => {
-    //   console.log('ADS',ads);
-    //   this.adList = ads;
-    // })
     this.timer = setInterval(() => {
       //this is just a filler action.  We would actually so something like
-      // this.adUrl = this.ads[this.index].url
       this.songName = this.songs[this.index2].name; //this works and rotates the name properly
-      this.songImg = this.songs[this.index2].imgUrl;
         console.log('SONG: ', this.songName)
         if (this.index2 === this.songs.length -1) {
         // if we are at the end of the list start again at the beginning;
