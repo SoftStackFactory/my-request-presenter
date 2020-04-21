@@ -18,21 +18,7 @@ export class AdminFormCreateEventComponent implements OnInit {
   freqMin = 10;
   displayMax = 120;
   freqMax = 600;
-  // images1 = [
-  //   { src : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
-  //   },
-  //   {
-  //     src : "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
-  //   }
-  // ]
-
-  // images2 = [
-  //   { src : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg?crop=0.669xw:1.00xh;0.331xw,0&resize=640:*"
-  //   },
-  //   {
-  //     src : "https://www.gardendesign.com/pictures/images/263x300Exact_62x0/site_3/helianthus-yellow-flower-pixabay_11863.jpg"
-  //   }
-  // ]
+  
 
 
   constructor(private _formBuilder: FormBuilder, private _router: Router, private _campaigns: CampaignsService) { }
@@ -41,7 +27,6 @@ export class AdminFormCreateEventComponent implements OnInit {
   ngOnInit() {
     this._campaigns.getCampaigns()
 
-  // eventList = this.events
 
     this.nameFormGroup = this._formBuilder.group({
       eventName: ['', Validators.required]
@@ -58,7 +43,7 @@ export class AdminFormCreateEventComponent implements OnInit {
                         event.previousIndex,
                         event.currentIndex);
     }
-    // console.log(event.container.data)
+    
   }
 
   showEventDetails : boolean = false;

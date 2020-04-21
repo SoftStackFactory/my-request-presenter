@@ -44,7 +44,23 @@
       
     <mat-step>
         <ng-template matStepLabel>Content</ng-template>
+        
+        <ul class="mdc-image-list my-image-list">
+            <li class="mdc-image-list__item">
+              <div class="mdc-image-list__image-aspect-container">
+                <img class="mdc-image-list__image" *ngFor="let event of _campaigns.events" src={{event.image}}>
+              </div>
+              <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Text label</span>
+              </div>
+            </li>
+            ...
+          </ul>
 
+
+
+
+        <!-- ////////////////DRAG AND DROP FEATURE///////////////// -->
         <div style="border-style:solid">
             Add Content
             <input type="file">
@@ -152,7 +168,7 @@
             (cdkDropListDropped)="drop($event)">
             Campaign Line Up
             <div *ngFor="let image of currentCampaignImages">
-                <img [src]="image" style="height:100px;" cdkDrag>
+                <img [src] ="image" style="height:100px;" cdkDrag>
             </div>
                 <!-- <img  src={{event.campaignImages.image2}} style="height:100px;" cdkDrag> -->
             </div>
