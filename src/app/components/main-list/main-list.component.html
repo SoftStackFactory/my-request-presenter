@@ -1,8 +1,9 @@
-<div class="main-list-container">
+<div class="main-list-container center">
     
     <div>
         <h2>ADS</h2>
         <!-- <p><img src="assets/img/geographer-ad.png" alt=""></p> -->
+        <p>{{this.adName}}</p>
         <p><img [src]="adUrl"></p>
         <!-- <div style="height: 500px">
             <h2>ADS</h2>
@@ -13,15 +14,17 @@
         </div> -->
         
     </div>
-    <div style="height: 500px">
+    <div>
         <h2>NEXT UP SONGS</h2>
         <!-- displays song name  -->
         <p>{{this.songName}}</p>
+        <!-- <p><img [src]="this.songImg" alt=""></p> -->
         <!-- <div *ngFor="let song of songs">
             <p>{{song.name}}</p>
            
         </div> -->
     </div>
+    
 </div>
 
 

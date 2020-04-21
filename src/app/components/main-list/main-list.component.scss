@@ -9,18 +9,29 @@ mat-grid-tile {
     margin: 0 auto;
     // flex-flow: column wrap;
     align-content: stretch;
+    min-height: 100%;
+    background: url(/assets/img/concert.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     
  }
 
  .main-list-container > div {
     height: 100px;
-    width: 50%;
-    background-color: #b93c2f;
+    width: 30%;
+    background-color: rgba(0,0,0,0.8);
     border: 1px solid #626262;
     margin: 5px;
     color: #fff;
     padding: 10px;
     // background-image: url('/assets/img/geographer-ad.png');
+ }
+
+ img {
+    max-width: 300px;
+    height: auto;
  }
 
 // body {

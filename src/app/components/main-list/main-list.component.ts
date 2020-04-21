@@ -12,6 +12,7 @@ export class MainListComponent implements OnInit {
   adUrl: any;
   songName: any;
   ads: any;
+  songImg: any;
 
   songList=[];
   adList = [];
@@ -31,8 +32,12 @@ export class MainListComponent implements OnInit {
     name: 'Need Me',
     artist: 'Geographer',
     imgUrl: 'assets/img/ad3.jpg'
-  }
-
+  },
+  {
+    name: 'TOGETHER',
+    artist: 'Geographer',
+    imgUrl: 'assets/img/ad4.jpg'
+  },
 ]
 
 
@@ -43,20 +48,24 @@ export class MainListComponent implements OnInit {
 
     this.adsService.getAds().subscribe((ads: any[]) => {
       console.log('ADS',ads)
-      // this.adList = ads[0].adImage1;
+      this.adList = ads[0].adImages;
+      console.log('ADLIST', this.adList)
       // this.adUrl = ads[0].adImages[1]; //this works
       // this.adUrl = this.ads[this.index1];
       // console.log('ad url', this.adUrl);
+      // this.adUrl = this.ads[this.index1].adImages;
+      // console.log('ADURLS', this.adUrl);
       this.timer = setInterval(() => {
         console.log('ADLIST');
-        this.adUrl = this.ads[this.index1].adImages;
+        // this.adUrl = this.ads[0].adImages;
+        this.adUrl = this.adList[this.index1];
         console.log('list here',this.adUrl);
         if(this.index1 === this.songs.length -1){
           this.index1 = 0
         } else {
           this.index1++;
         }
-      }, ads[this.index1].duration * 4000);
+      }, ads[0].duration * 500);
     })
     // this.adsService.getAds().subscribe((ads: any[]) => {
     //   console.log('ADS',ads);
@@ -66,6 +75,7 @@ export class MainListComponent implements OnInit {
       //this is just a filler action.  We would actually so something like
       // this.adUrl = this.ads[this.index].url
       this.songName = this.songs[this.index2].name; //this works and rotates the name properly
+      this.songImg = this.songs[this.index2].imgUrl;
         console.log('SONG: ', this.songName)
         if (this.index2 === this.songs.length -1) {
         // if we are at the end of the list start again at the beginning;
