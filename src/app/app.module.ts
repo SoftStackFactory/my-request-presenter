@@ -8,16 +8,20 @@ import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CurrencyPipe } from '@angular/common';
+import { NextUpComponent } from './components/next-up/next-up.component';
+import { MatCardModule } from '@angular/material/card';
 import { AdminFormCreateEventComponent } from './components/admin-form-create-event/admin-form-create-event.component';
 import { MatButtonModule, MatTabsModule, MatStepperModule, MatFormFieldModule, MatInputModule, MatSliderModule } from '@angular/material';
 import { AdminFormManageEventComponent } from './components/admin-form-manage-event/admin-form-manage-event.component';
 import { DragDropModule } from '@angular/cdk/drag-drop'
 
 @NgModule({
-  declarations: [ 
+  declarations: [
+    AppComponent,
+    NextUpComponent,
     AppComponent,
     AdminFormCreateEventComponent,
-    AdminFormManageEventComponent
+    AdminFormManageEventComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop'
     MatInputModule,
     MatSliderModule,
     FormsModule,
-    DragDropModule
+    DragDropModule,
+    MatCardModule,
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]
