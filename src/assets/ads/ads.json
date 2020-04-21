@@ -1,0 +1,222 @@
+[
+    {
+        "adName": "Paradigm",
+        "frequency": 12,
+        "duration": 16,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Tasty",
+        "frequency": 20,
+        "duration": 20,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "quantifying",
+        "frequency": 10,
+        "duration": 16,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "pink",
+        "frequency": 19,
+        "duration": 16,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Extended",
+        "frequency": 20,
+        "duration": 15,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Intelligent",
+        "frequency": 17,
+        "duration": 10,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "JSON",
+        "frequency": 18,
+        "duration": 17,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Supervisor",
+        "frequency": 14,
+        "duration": 13,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Hat",
+        "frequency": 15,
+        "duration": 15,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "technologies",
+        "frequency": 13,
+        "duration": 19,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "architectures",
+        "frequency": 18,
+        "duration": 12,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Frozen",
+        "frequency": 19,
+        "duration": 19,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "benchmark",
+        "frequency": 12,
+        "duration": 10,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "hacking",
+        "frequency": 10,
+        "duration": 11,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "payment",
+        "frequency": 18,
+        "duration": 13,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "online",
+        "frequency": 11,
+        "duration": 16,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Wooden",
+        "frequency": 11,
+        "duration": 12,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Refined Frozen Soap",
+        "frequency": 14,
+        "duration": 14,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Human",
+        "frequency": 12,
+        "duration": 15,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    },
+    {
+        "adName": "Trinidad and Tobago",
+        "frequency": 17,
+        "duration": 14,
+        "adImages": [
+            "assets/img/ad1.jpg",
+            "assets/img/ad2.jpg",
+            "assets/img/ad3.jpg",
+            "assets/img/ad4.jpg"
+        ]
+    }
+]
