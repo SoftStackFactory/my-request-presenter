@@ -1,14 +1,14 @@
-<mat-card class="mat-elevation-z0">
+<mat-card class="mat-elevation-z0" *ngIf='request'>
   <div id="request-place-wrapper">
     <span class="request-place"> # {{place}} </span>
   </div>
   <div id="request-info-wrapper">
-    <span class="song-name mat-body-strong truncate">{{ song }}</span>
-    <p class="artist-name mat-body truncate">{{ artist }}</p>
+    <span class="song-name mat-body-strong truncate">{{ request.song }}</span>
+    <p class="artist-name mat-body truncate">{{ request.artist }}</p>
   </div>
   <div id="tip">
     <div id="amount-wrapper">
-      <span class="tip-amount" *ngIf="amount">{{ amount | currency }}</span>
+      <span class="tip-amount" *ngIf="amount">{{ request.amount | currency }}</span>
     </div>
   </div>
 </mat-card>

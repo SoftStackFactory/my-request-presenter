@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Request } from '../../interfaces/request';
 
 @Component({
   selector: 'app-next-up',
@@ -6,18 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./next-up.component.scss']
 })
 export class NextUpComponent implements OnInit {
-  // @Input() artist: string;
-  // @Input() song: string;
-  // @Input() amount: number;
-  // @Input() memo: string;
-  // @Input() amount: number;
-
-  // hard coded for now. 
-  place = 3;
-  song = 'iusto qui accusantium';
-  artist = 'Richard Port Velvahaven';
-  memo = 'Illum consectetur ullam quasi.';
-  amount = 30.33;
+  @Input() request: Request;
+  @Input() place: number;
 
   constructor() { }
 
