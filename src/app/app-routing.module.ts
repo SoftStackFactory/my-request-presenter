@@ -8,7 +8,7 @@ import { AdminFormManageEventComponent } from './components/admin-form-manage-ev
 const routes: Routes = [
  
   {
-    path: 'mainList', component: MainListComponent
+    path: 'event/:id/present', component: MainListComponent
   },
   { path: 'new/advertisingconfig', component: AdminFormCreateEventComponent },
   { path: 'manage/advertisingconfig', component: AdminFormManageEventComponent}
