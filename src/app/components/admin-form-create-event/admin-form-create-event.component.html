@@ -44,18 +44,19 @@
       
     <mat-step>
         <ng-template matStepLabel>Content</ng-template>
-        
+<!--         
         <ul class="mdc-image-list my-image-list">
+         <div *ngFor="let event of _campaigns.events">
             <li class="mdc-image-list__item">
               <div class="mdc-image-list__image-aspect-container">
-                <img class="mdc-image-list__image" *ngFor="let event of _campaigns.events" src={{event.image}}>
+                <img class="mdc-image-list__image"  [src]="event.galleryImages">
               </div>
               <div class="mdc-image-list__supporting">
                 <span class="mdc-image-list__label">Text label</span>
               </div>
             </li>
-            ...
-          </ul>
+         </div>
+          </ul> -->
 
 
 
@@ -66,8 +67,30 @@
             <input type="file">
             <button mat-raised-button color="secondary">Upload</button>
         </div>
+
+        <mat-card class="row"> 
+            <!-- //////GALLERY/////// -->
+        <div style='border-style: solid; height: 200px; width: 900px'>
+        <div *ngFor="let image of gallery" (click)="onSelect(image)" style='display: inline' >
+            <img  [src]="image.path" 
+            [ngClass]="{selected: selectedImages[image.id]}"
+            height='120px' width='120px' 
+            >
+        </div> 
+    </div>
+        </mat-card>
+        <mat-card>
+            <!-- /////CAMPAIGN IMAGES////// -->
+            <div style=' border-style: solid; height: 200px; width: 900px'>
+            <div class="col" *ngFor="let image of campaignImages" style='display: inline'>
+                <img  [src]="image" height='150px' width='150px'>
+            </div>
+            </div>
+              
         
-        <div cdkDropList style="border-style:solid" 
+        </mat-card>
+        <!-- ///////////////////DRAG AND DROP FUNCTIONAILTY///////////////////////// -->
+        <!-- <div cdkDropList style="border-style:solid" 
         [cdkDropListData]="images1"
         #LineUpList="cdkDropList" 
         [cdkDropListConnectedTo]="GalleryList"
@@ -83,7 +106,7 @@
         (cdkDropListDropped)="drop($event)">
             Gallery
             <img *ngFor="let image of images2" src={{image.src}} style="height:100px;" cdkDrag>
-        </div>
+        </div> -->
         <div>
             <button mat-raised-button matStepperNext color="primary">Create My Campaign</button>
         </div>
@@ -161,7 +184,8 @@
                 <input type="file">
                 <button mat-raised-button color="secondary">Upload</button>
             </div>
-            <div cdkDropList style="border-style:solid" 
+            <!-- ////////////////DRAG AND DROP FUNCTIONAILTY////////// -->
+            <!-- <div cdkDropList style="border-style:solid" 
             [cdkDropListData]="currentCampaignImages"
             #LineUpList="cdkDropList" 
             [cdkDropListConnectedTo]="GalleryList"
@@ -169,10 +193,7 @@
             Campaign Line Up
             <div *ngFor="let image of currentCampaignImages">
                 <img [src] ="image" style="height:100px;" cdkDrag>
-            </div>
-                <!-- <img  src={{event.campaignImages.image2}} style="height:100px;" cdkDrag> -->
-            </div>
-            
+                       
             <div cdkDropList style="border-style:solid" 
             [cdkDropListData]="currentGalleryImages"
             #GalleryList="cdkDropList"
@@ -182,8 +203,8 @@
                 <div *ngFor="let image of currentGalleryImages">
                 <img [src]="image" style="height:100px;" cdkDrag>
                 </div>
-                <!-- <img  src={{event.galleryImages.image3}} style="height:100px;" cdkDrag> -->
-            </div>
+                
+            </div> -->
             <div>
                <button mat-raised-button matStepperNext color="primary">Update Campaign</button>
             </div>

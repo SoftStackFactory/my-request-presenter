@@ -7,3 +7,39 @@ p {
     padding-top: 1.5em;
 }
 
+.images-layout {
+    height: 100px;
+    width: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
+   The percent can be px. It just represents your minimum starting width.
+    */
+    margin: 5px;
+    height: 120px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .selected {
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+  }
+ 
+//   .my_class {
+//   @if this.status == true {
+//     color: blue;
+  
+//   } @else {
+//     color: red;
+//   }
+// }
