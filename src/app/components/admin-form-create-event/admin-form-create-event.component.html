@@ -71,6 +71,7 @@
         <mat-card class="row"> 
             <!-- //////GALLERY/////// -->
         <div style='border-style: solid; height: 200px; width: 900px'>
+            Gallery
         <div *ngFor="let image of gallery" (click)="onSelect(image)" style='display: inline' >
             <img  [src]="image.path" 
             [ngClass]="{selected: selectedImages[image.id]}"
@@ -81,10 +82,17 @@
         </mat-card>
         <mat-card>
             <!-- /////CAMPAIGN IMAGES////// -->
-            <div style=' border-style: solid; height: 200px; width: 900px'>
-            <div class="col" *ngFor="let image of campaignImages" style='display: inline'>
-                <img  [src]="image" height='150px' width='150px'>
-            </div>
+            <div cdkDropList style=' border-style: solid; height: 200px; width: 900px' 
+                
+             
+                (cdkDropListDropped)="drop($event)"
+            >
+                Campaign Line-Up
+                <div class="col" *ngFor="let image of campaignImages" style='display: inline'>
+                    <img  [src]="image" height='150px' width='150px' cdkDrag>
+                </div>
+
+
             </div>
               
         

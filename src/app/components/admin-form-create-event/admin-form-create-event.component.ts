@@ -40,17 +40,18 @@ export class AdminFormCreateEventComponent implements OnInit {
     })
   }
 
-    drop(event: CdkDragDrop<string[]>) {
-      if (event.previousContainer === event.container) {
-      moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
-    } else {
-      transferArrayItem(event.previousContainer.data,
-                        event.container.data,
-                        event.previousIndex,
-                        event.currentIndex);
-    }
+    // drop(event: CdkDragDrop<string[]>) {
+    //   if (event.previousContainer === event.container) {
+    //   moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
+    // } else {
+    //   transferArrayItem(event.previousContainer.data,
+    //                     event.container.data,
+    //                     event.previousIndex,
+    //                     event.currentIndex);
+    // }
     
-  }
+    
+  // }
 
 
   
@@ -69,13 +70,7 @@ export class AdminFormCreateEventComponent implements OnInit {
     
 
     }
-    // status: boolean = false;
-    // clickEvent(){
-      
-    //   this.status = !this.status;  
-      
-
-    // }
+  
 
     gallery = [
       {
@@ -106,6 +101,11 @@ export class AdminFormCreateEventComponent implements OnInit {
     this.campaignImages = Object.values(this.selectedImages)
   }
     
+
+  drop(event: CdkDragDrop<string[]>) {
+    moveItemInArray(this.campaignImages, event.previousIndex, event.currentIndex);
+  }
+
   
   }
 
