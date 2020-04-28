@@ -23,9 +23,7 @@ export class AdminFormCreateEventComponent implements OnInit {
   editingButton : boolean = false;
   disabled: boolean;
   event: any;
-  // currentCampaignImages: any = [];
-  // currentGalleryImages: any= [];
-
+ 
 
   constructor(private _formBuilder: FormBuilder, private _router: Router, private _campaigns: CampaignsService) { }
 
@@ -35,28 +33,13 @@ export class AdminFormCreateEventComponent implements OnInit {
 
 
     this.nameFormGroup = this._formBuilder.group({
-      eventName: ['', Validators.required]
-
+      campaignName: [null, [Validators.required]],
+      value: [null, [Validators.required, Validators.min(2), Validators.max(120)]],
+      value2: [null, [Validators.required, Validators.min(10), Validators.max(600)]]
     })
+    this.nameFormGroup.valueChanges.subscribe(_ => console.log(this.nameFormGroup.errors))
   }
 
-    // drop(event: CdkDragDrop<string[]>) {
-    //   if (event.previousContainer === event.container) {
-    //   moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
-    // } else {
-    //   transferArrayItem(event.previousContainer.data,
-    //                     event.container.data,
-    //                     event.previousIndex,
-    //                     event.currentIndex);
-    // }
-    
-    
-  // }
-
-
-  
-  
- 
   displayOptions(arg){
     this.showEventDetails = !this.showEventDetails;
     this.manageButton =!this.manageButton;
@@ -65,10 +48,6 @@ export class AdminFormCreateEventComponent implements OnInit {
     this.nameFormGroup.patchValue({
       arg});
     console.log(this.event.campaignImages)
-    // this.currentCampaignImages = [...this.event.campaignImages]
-    // this.currentGalleryImages = [...this.event.galleryImages ]
-    
-
     }
   
 
@@ -106,7 +85,25 @@ export class AdminFormCreateEventComponent implements OnInit {
     moveItemInArray(this.campaignImages, event.previousIndex, event.currentIndex);
   }
 
-  
+
+  createCampaign(){
+    console.log(this.nameFormGroup.value.value)
+    console.log(this.nameFormGroup.value.value2)
+    console.log(this.nameFormGroup.value.campaignName)
+    
   }
+
+  renameCampaign(){
+    console.log(this.nameFormGroup.value.campaignName)
+  }
+
+  updateCampaign(){
+    console.log(this.nameFormGroup.value.value)
+    console.log(this.nameFormGroup.value.value2)
+    console.log(this.nameFormGroup.value.campaignName)
+    
+  }
+  
+}
 
 

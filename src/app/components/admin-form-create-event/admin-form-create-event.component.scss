@@ -18,9 +18,6 @@ p {
   }
   
   .col {
-  //   flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
-  //  The percent can be px. It just represents your minimum starting width.
-  //   */
     margin: 5px;
     height: 150px;
     color: white;
@@ -37,11 +34,3 @@ p {
     border-color: blue;
   }
  
-//   .my_class {
-//   @if this.status == true {
-//     color: blue;
-  
-//   } @else {
-//     color: red;
-//   }
-// }

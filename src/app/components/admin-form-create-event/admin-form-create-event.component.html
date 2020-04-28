@@ -2,225 +2,191 @@
 <mat-tab-group>
     <mat-tab label="Create Campaign">
 
-  <p>Welcome, User!</p> 
-
-  <mat-horizontal-stepper linear #stepper>
-    <mat-step>
+        <p>Welcome, User!</p> 
         <form [formGroup]="nameFormGroup">
-            <ng-template matStepLabel>Campaign Name</ng-template>
-            <mat-form-field>
-                    <input matInput formControlName="eventName" required placeholder="what's your campaign called?">
-            </mat-form-field>
-            <div>
-            <button mat-raised-button matStepperNext color="primary">+ Campaign</button>
-            </div>
+            <mat-horizontal-stepper linear #stepper>
+                <mat-step>
+                    
+                        <ng-template matStepLabel>Campaign Name</ng-template>
+                        <mat-form-field>
+                            <input matInput formControlName="campaignName" required placeholder="what's your campaign called?">
+                        </mat-form-field>
+                        <div>
+                            <button mat-raised-button matStepperNext color="primary">+ Campaign</button>
+                        </div>
+                    
+                </mat-step>
+                <mat-step>
+                    <ng-template matStepLabel>Timing</ng-template>
+                    <div id="displaySlider"> Display Time (in seconds): 
+                        <mat-slider
+                        
+                        formControlName="value" 
+                        required 
+                        [thumbLabel] = "thumbLabel"
+                        [min] = "displayMin"
+                        [max] = "displayMax"
+                        >   
+                        </mat-slider>
+                    </div>
+                    <div> Frequency (in seconds): 
+                        <mat-slider 
+                        
+                        formControlName="value2"  
+                        required  
+                        [thumbLabel] = "thumbLabel"
+                        [min] = "freqMin"
+                        [max] = "freqMax"
+                        >
+                        </mat-slider>
+                    </div>
+                    <div>
+                        <button mat-raised-button matStepperPrevious color="primary">Back</button>
+                        <button mat-raised-button matStepperNext color="primary">Next</button>
+                    </div>
+                </mat-step>
+            
+                <mat-step>
+                    <ng-template matStepLabel>Content</ng-template>
+                    <div style="border-style:solid">
+                        Add Content
+                        <input type="file">
+                        <button mat-raised-button color="secondary">Upload</button>
+                    </div>
+
+                    <mat-card>
+                        <h2>Campaign Line-Up</h2>
+                        <div
+                        cdkDropList
+                        style='border-style: solid; height: 200px; width: 900px; display: flex; flex-direction: row' 
+                        (cdkDropListDropped)="drop($event)"
+                        [cdkDropListData]='campaignImages'
+                        cdkDropListOrientation="horizontal">
+                            <div class = "col" cdkDrag *ngFor="let image of campaignImages" [cdkDragData]="image">
+                                <img [src]="image" height='150px' width='150px'>
+                            </div>
+                        </div>
+                    </mat-card>
+                    <mat-card class="row"> 
+                        <div style='border-style: solid; height: 200px; width: 900px'>
+                        Gallery
+                            <div *ngFor="let image of gallery" (click)="onSelect(image)" style='display: inline' >
+                                <img  [src]="image.path" 
+                                [ngClass]="{selected: selectedImages[image.id]}"
+                                height='120px' width='120px' 
+                                >
+                            </div> 
+                        </div>
+                    </mat-card>
+                    <div>
+                        <button mat-raised-button matStepperNext 
+                        color="primary" 
+                        (click)="createCampaign()" 
+                        type="submit" 
+                        [disabled]="nameFormGroup.invalid"
+                        >
+                        Create My Campaign
+                        </button>
+                    </div>
+                </mat-step>
+
+
+            </mat-horizontal-stepper>
         </form>
-    </mat-step>
-    <mat-step>
-        <ng-template matStepLabel>Timing</ng-template>
-        <div id="displaySlider"> Display Time (in seconds): 
-            <mat-slider 
-            [(ngModel)] = "value"
-            [thumbLabel] = "thumbLabel"
-            [min] = "displayMin"
-            [max] = "displayMax"
-            >   
-            </mat-slider>
-        </div>
-        <div> Frequency (in seconds): 
-            <mat-slider 
-            [(ngModel)] = "value2"   
-            [thumbLabel] = "thumbLabel"
-            [min] = "freqMin"
-            [max] = "freqMax"
-            >
-            </mat-slider>
-        </div>
-        <div>
-            <button mat-raised-button matStepperPrevious color="primary">Back</button>
-            <button mat-raised-button matStepperNext color="primary">Next</button>
-        </div>
-    </mat-step>
-      
-    <mat-step>
-        <ng-template matStepLabel>Content</ng-template>
-<!--         
-        <ul class="mdc-image-list my-image-list">
-         <div *ngFor="let event of _campaigns.events">
-            <li class="mdc-image-list__item">
-              <div class="mdc-image-list__image-aspect-container">
-                <img class="mdc-image-list__image"  [src]="event.galleryImages">
-              </div>
-              <div class="mdc-image-list__supporting">
-                <span class="mdc-image-list__label">Text label</span>
-              </div>
-            </li>
-         </div>
-          </ul> -->
-
-
-
-
-        <!-- ////////////////DRAG AND DROP FEATURE///////////////// -->
-        <div style="border-style:solid">
-            Add Content
-            <input type="file">
-            <button mat-raised-button color="secondary">Upload</button>
-        </div>
-
-        <mat-card class="row"> 
-            <!-- //////GALLERY/////// -->
-        <div style='border-style: solid; height: 200px; width: 900px'>
-            Gallery
-        <div *ngFor="let image of gallery" (click)="onSelect(image)" style='display: inline' >
-            <img  [src]="image.path" 
-            [ngClass]="{selected: selectedImages[image.id]}"
-            height='120px' width='120px' 
-            >
-        </div> 
-    </div>
-      </mat-card>
-      <mat-card>
-        <!-- /////CAMPAIGN IMAGES////// -->
-        <h2>Campaign Line-Up</h2>
-        <div
-        cdkDropList
-        style='border-style: solid; height: 200px; width: 900px; display: flex; flex-direction: row' 
-        (cdkDropListDropped)="drop($event)"
-        [cdkDropListData]='campaignImages'
-        cdkDropListOrientation="horizontal">
-          <div class = "col" cdkDrag *ngFor="let image of campaignImages" [cdkDragData]="image">
-            <img [src]="image" height='150px' width='150px'>
-          </div>
-        </div>
-
-      </mat-card>
-        <!-- ///////////////////DRAG AND DROP FUNCTIONAILTY///////////////////////// -->
-        <!-- <div cdkDropList style="border-style:solid" 
-        [cdkDropListData]="images1"
-        #LineUpList="cdkDropList" 
-        [cdkDropListConnectedTo]="GalleryList"
-        (cdkDropListDropped)="drop($event)">
-        Campaign Line Up
-            <img *ngFor="let image of images1" src={{image.src}} style="height:100px;" cdkDrag>
-        </div>
-        
-        <div cdkDropList style="border-style:solid" 
-        [cdkDropListData]="images2"
-        #GalleryList="cdkDropList"
-        [cdkDropListConnectedTo]="LineUpList"
-        (cdkDropListDropped)="drop($event)">
-            Gallery
-            <img *ngFor="let image of images2" src={{image.src}} style="height:100px;" cdkDrag>
-        </div> -->
-        <div>
-            <button mat-raised-button matStepperNext color="primary">Create My Campaign</button>
-        </div>
-        
-    </mat-step>
-
-
-    </mat-horizontal-stepper>
     </mat-tab>
 
-<!-- //////////////MANAGE EVENT/////////////////// -->
+<!-- //////////////MANAGE CAMPAIGN/////////////////// -->
 
-<mat-tab label="Manage Campaign">
-  <div *ngIf="manageButton; else elseBlock">  
-    <p>Welcome, User!</p> 
-    Campaigns List:
-    <div *ngFor="let event of _campaigns.events">
-        
-        {{event.name}}
-        <button mat-raised-button color="primary" (click)="displayOptions(this.event)" *ngIf="manageButton">Manage</button>
-        <button mat-raised-button color="primary" (click)="displayOptions()" *ngIf="editingButton" disabled="true">You are editing!</button>
-        <button mat-raised-button color="secondary">Archive</button>
-    </div> 
-  </div>
-
-    <ng-template #elseBlock>
+    <mat-tab label="Manage Campaign">
+        <div *ngIf="manageButton; else elseBlock">  
+            <p>Welcome, User!</p> 
+            Campaigns List:
+            <div *ngFor="let event of _campaigns.events">            
+            {{event.name}}
+                <button mat-raised-button color="primary" (click)="displayOptions(this.event)" *ngIf="manageButton">Manage</button>
+                <button mat-raised-button color="primary" (click)="displayOptions()" *ngIf="editingButton" disabled="true">You are editing!</button>
+                <button mat-raised-button color="secondary">Archive</button>
+            </div> 
+        </div>
+        <ng-template #elseBlock>
             <p>You are editing!</p> 
-    </ng-template>
-    
-    <mat-horizontal-stepper linear #stepper *ngIf="showEventDetails">
-        <mat-step>
-            <form [formGroup]="nameFormGroup">
-                <ng-template matStepLabel>Campaign: {{event.name}}</ng-template>
-                <mat-form-field>
-                        <input matInput formControlName="eventName" required placeholder="what's your campaign called?">
-                </mat-form-field>
+        </ng-template>
+        
+        <mat-horizontal-stepper linear #stepper *ngIf="showEventDetails">
+            <mat-step>
+                <form [formGroup]="nameFormGroup">
+                    <ng-template matStepLabel>Campaign: {{event.name}}</ng-template>
+                    <mat-form-field>
+                            <input matInput formControlName="campaignName" required placeholder="what's your campaign called?">
+                    </mat-form-field>
+                    <div>
+                        <button mat-raised-button matStepperNext color="primary" (click)="renameCampaign()">Rename Campaign</button>
+                        <button mat-raised-button matStepperNext color="secondary">Skip</button>
+                    </div>                    
+                </form>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Timing</ng-template>
+                <div id="displaySlider"> Display Time (in seconds): 
+                    <mat-slider 
+                    [(ngModel)] = "event.displayTime"
+                    [thumbLabel] = "thumbLabel"
+                    [min] = "displayMin"
+                    [max] = "displayMax"
+                    >   
+                    </mat-slider>
+                </div>
+                <div> Frequency (in seconds): 
+                    <mat-slider 
+                    [(ngModel)] = "event.freqTime"   
+                    [thumbLabel] = "thumbLabel"
+                    [min] = "freqMin"
+                    [max] = "freqMax"
+                    >
+                    </mat-slider>
+                </div>
                 <div>
-                <button mat-raised-button matStepperNext color="primary">Rename Campaign</button>
-                <button mat-raised-button matStepperNext color="secondary">Skip</button>
+                    <button mat-raised-button matStepperPrevious color="primary">Back</button>
+                    <button mat-raised-button matStepperNext color="primary">Next</button>
                 </div>
-                
-            </form>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Timing</ng-template>
-            <div id="displaySlider"> Display Time (in seconds): 
-                <mat-slider 
-                [(ngModel)] = "event.displayTime"
-                [thumbLabel] = "thumbLabel"
-                [min] = "displayMin"
-                [max] = "displayMax"
-                >   
-                </mat-slider>
-            </div>
-            <div> Frequency (in seconds): 
-                <mat-slider 
-                [(ngModel)] = "event.freqTime"   
-                [thumbLabel] = "thumbLabel"
-                [min] = "freqMin"
-                [max] = "freqMax"
-                >
-                </mat-slider>
-            </div>
-            <div>
-                <button mat-raised-button matStepperPrevious color="primary">Back</button>
-                <button mat-raised-button matStepperNext color="primary">Next</button>
-            </div>
-        </mat-step>
-          
-        <mat-step>
-            <ng-template matStepLabel>Content</ng-template>
-    
-            <div style="border-style:solid">
-                Add Content
-                <input type="file">
-                <button mat-raised-button color="secondary">Upload</button>
-            </div>
-            <!-- ////////////////DRAG AND DROP FUNCTIONAILTY////////// -->
-            <!-- <div cdkDropList style="border-style:solid" 
-            [cdkDropListData]="currentCampaignImages"
-            #LineUpList="cdkDropList" 
-            [cdkDropListConnectedTo]="GalleryList"
-            (cdkDropListDropped)="drop($event)">
-            Campaign Line Up
-            <div *ngFor="let image of currentCampaignImages">
-                <img [src] ="image" style="height:100px;" cdkDrag>
-                       
-            <div cdkDropList style="border-style:solid" 
-            [cdkDropListData]="currentGalleryImages"
-            #GalleryList="cdkDropList"
-            [cdkDropListConnectedTo]="LineUpList"
-            (cdkDropListDropped)="drop($event)">    
-                Gallery
-                <div *ngFor="let image of currentGalleryImages">
-                <img [src]="image" style="height:100px;" cdkDrag>
-                </div>
-                
-            </div> -->
-            <div>
-               <button mat-raised-button matStepperNext color="primary">Update Campaign</button>
-            </div>
+            </mat-step>
             
-        </mat-step>
-    
-    
+            <mat-step>
+                <ng-template matStepLabel>Content</ng-template>
+        
+                <div style="border-style:solid">
+                    Add Content
+                    <input type="file">
+                    <button mat-raised-button color="secondary">Upload</button>
+                </div>
+                <mat-card>
+                    <h2>Campaign Line-Up</h2>
+                    <div
+                    cdkDropList
+                    style='border-style: solid; height: 200px; width: 900px; display: flex; flex-direction: row' 
+                    (cdkDropListDropped)="drop($event)"
+                    [cdkDropListData]='campaignImages'
+                    cdkDropListOrientation="horizontal">
+                        <div class = "col" cdkDrag *ngFor="let image of campaignImages" [cdkDragData]="image">
+                            <img [src]="image" height='150px' width='150px'>
+                        </div>
+                    </div>        
+                </mat-card>
+                <mat-card class="row"> 
+                    <div style='border-style: solid; height: 200px; width: 900px'>
+                        Gallery
+                        <div *ngFor="let image of gallery" (click)="onSelect(image)" style='display: inline' >
+                            <img  [src]="image.path" 
+                            [ngClass]="{selected: selectedImages[image.id]}"
+                            height='120px' width='120px' 
+                            >
+                        </div> 
+                    </div>
+                </mat-card>
+                <div>
+                    <button mat-raised-button matStepperNext color="primary" (click)="updateCampaign()">Update Campaign</button>
+                </div>
+            </mat-step>        
         </mat-horizontal-stepper>    
-  </mat-tab>
-
-  
-
+    </mat-tab>
 </mat-tab-group>
