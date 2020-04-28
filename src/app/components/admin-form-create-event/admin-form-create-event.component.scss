@@ -18,15 +18,17 @@ p {
   }
   
   .col {
-    flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
-   The percent can be px. It just represents your minimum starting width.
-    */
+  //   flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
+  //  The percent can be px. It just represents your minimum starting width.
+  //   */
     margin: 5px;
-    height: 120px;
+    height: 150px;
     color: white;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    cursor: move;
   }
 
   .selected {
