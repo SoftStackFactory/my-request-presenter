@@ -7,15 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { ReactiveFormsModule } from '@angular/forms';
-import { CurrencyPipe } from '@angular/common';
+import { CurrencyPipe,
+  CommonModule
+} from '@angular/common';
+import { AdminFormCreateEventComponent } from './components/admin-form-create-event/admin-form-create-event.component';
+import { DragDropModule } from '@angular/cdk/drag-drop'
 import { MainListComponent } from './components/main-list/main-list.component';
 import { NextUpComponent } from './components/next-up/next-up.component';
-import {
-  AdminFormCreateEventComponent
-} from './components/admin-form-create-event/admin-form-create-event.component';
-import {
-  AdminFormManageEventComponent
-} from './components/admin-form-manage-event/admin-form-manage-event.component';
 import {
   MatButtonModule,
   MatTabsModule,
@@ -26,16 +24,16 @@ import {
   MatInputModule,
   MatGridListModule,
 } from '@angular/material';
-import { DragDropModule } from '@angular/cdk/drag-drop';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    AdminFormCreateEventComponent,
     MainListComponent,
     NextUpComponent,
     AdminFormCreateEventComponent,
-    AdminFormManageEventComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,6 +53,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     FormsModule,
     DragDropModule,
     MatCardModule,
+    CommonModule
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]

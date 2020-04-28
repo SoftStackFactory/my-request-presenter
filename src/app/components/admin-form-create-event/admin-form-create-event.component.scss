@@ -7,3 +7,30 @@ p {
     padding-top: 1.5em;
 }
 
+.images-layout {
+    height: 100px;
+    width: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    margin: 5px;
+    height: 150px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: move;
+  }
+
+  .selected {
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+  }
+ 
