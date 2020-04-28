@@ -79,24 +79,22 @@
             >
         </div> 
     </div>
-        </mat-card>
-        <mat-card>
-            <!-- /////CAMPAIGN IMAGES////// -->
-            <div cdkDropList style=' border-style: solid; height: 200px; width: 900px' 
-                
-             
-                (cdkDropListDropped)="drop($event)"
-            >
-                Campaign Line-Up
-                <div class="col" *ngFor="let image of campaignImages" style='display: inline'>
-                    <img  [src]="image" height='150px' width='150px' cdkDrag>
-                </div>
+      </mat-card>
+      <mat-card>
+        <!-- /////CAMPAIGN IMAGES////// -->
+        <h2>Campaign Line-Up</h2>
+        <div
+        cdkDropList
+        style='border-style: solid; height: 200px; width: 900px; display: flex; flex-direction: row' 
+        (cdkDropListDropped)="drop($event)"
+        [cdkDropListData]='campaignImages'
+        cdkDropListOrientation="horizontal">
+          <div class = "col" cdkDrag *ngFor="let image of campaignImages" [cdkDragData]="image">
+            <img [src]="image" height='150px' width='150px'>
+          </div>
+        </div>
 
-
-            </div>
-              
-        
-        </mat-card>
+      </mat-card>
         <!-- ///////////////////DRAG AND DROP FUNCTIONAILTY///////////////////////// -->
         <!-- <div cdkDropList style="border-style:solid" 
         [cdkDropListData]="images1"
